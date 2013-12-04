@@ -4,3 +4,5 @@
 *.jar
 *.war
 *.ear
+/Level 3/HelloSpring/nbproject/private/
+/Level 3/HelloSpring/build/
