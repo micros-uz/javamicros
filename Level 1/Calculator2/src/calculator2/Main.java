@@ -1,16 +1,18 @@
 package calculator2;
 
+import consolehelpers.Input;
 import java.util.Scanner;
 
 public class Main {
     private static Scanner _scanner;
-    
+    private static Input _input;
 
     public static void main(String[] args) {
-        print("Calculator 1.0 " + "\u00A9");
-        print("Empty input is treated as exit");
+        _input = new Input();
         
-        _scanner = new Scanner(System.in);
+        _input.print("Calculator 1.0 " + "\u00A9");
+        _input.print("Empty input is treated as exit");
+
         Calculator calculator = new Calculator();
         
         while(true){
@@ -19,28 +21,28 @@ public class Main {
                 double n2 = getSecond();
                 String op = getOp();
                 double res = calculator.calc(n1, n2, op);
-                print("Result = " + res);
+                _input.print("Result = " + res);
             }
             catch(NumberFormatException ex){
-                print("GAME OVER");
+                _input.print("GAME OVER");
                 break;
             }
         }
     }
 
     private static double getFirst() {
-        print("Enter first number:");
-        return getInteger();
+        _input.print("Enter first number:");
+        return _input.getInteger();
     }
 
     private static double getSecond() {
-        print("Enter second number:");
-        return getInteger();
+        _input.print("Enter second number:");
+        return _input.getInteger();
     }
 
     @SuppressWarnings("empty-statement")
     private static String getOp() {
-        print("Enter operaction:");
+        _input.print("Enter operaction:");
         String op;
         
         while(true){
@@ -49,21 +51,13 @@ public class Main {
                     "*".equals(op) || "/".equals(op))
                 break;
             else
-                print("Wrong operation");
+                _input.print("Wrong operation");
         }        
         
         return op;
     }
 
-    private static void print(String s) {
-        System.out.println(s);
-    }
 
-    private static double getInteger() {
-        String с = _scanner.nextLine();
-        
-        return Double.parseDouble(с);
-    }
 
     
     
