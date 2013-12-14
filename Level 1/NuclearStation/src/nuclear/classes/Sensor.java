@@ -1,40 +1,20 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 package nuclear.classes;
 
 import input.OutputConsole;
 
-/**
- *
- * @author artem
- */
-public class Sensor implements Device{
-    private final String _name;
-    private final OutputConsole _console;
+public class Sensor extends BaseDevice{
+    private final String _type;
+    private static int _id;
 
-    public Sensor(String name, OutputConsole console){
-        _name = name;
-        _console = console;
+    public Sensor(String type, OutputConsole console){
+        super(console);
+        _type = type;
+        
+        _id++;
     }
     
     @Override
-    public String getName() {
-        return _name;
-    }
-
-    @Override
-    public void start() {
-        _console.println("ww");
-        _console.println(String.format("%s %s", _name, "started"));
-    }
-
-    @Override
-    public void stop() {
-       _console.println(String.format("%s %s", _name, "stopped")); 
-    }
-    
+    protected String getDevName() {
+        return String.format("%s Id=%d", _type, _id);
+    }   
 }

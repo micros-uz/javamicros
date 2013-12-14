@@ -1,17 +1,12 @@
 package input;
 
 import java.util.Scanner;
-import org.jnativehook.keyboard.NativeKeyEvent;
-/**
- *
- * @author artem
- */
+
 public class Input implements NativeKeyListenerEventSink, OutputConsole {
     private final Scanner _scanner = new Scanner(System.in);
     private final InputKeyListener _keyListener;
     private int _key;
-    private volatile boolean _catched;
-    
+    private volatile boolean _catched;    
     
     public Input(){
         _keyListener = new InputKeyListener(this);

@@ -1,6 +1,6 @@
 package input;
 
-public interface NativeKeyListenerEventSink {
+interface NativeKeyListenerEventSink {
     void notify(int key);
     void error(String err);
 }

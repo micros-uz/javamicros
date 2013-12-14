@@ -5,7 +5,7 @@ import org.jnativehook.NativeHookException;
 import org.jnativehook.keyboard.NativeKeyEvent;
 import org.jnativehook.keyboard.NativeKeyListener;
 
-public class InputKeyListener implements NativeKeyListener {
+class InputKeyListener implements NativeKeyListener {
     private NativeKeyListenerEventSink _eventSink;
 
 

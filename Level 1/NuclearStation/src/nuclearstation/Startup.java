@@ -21,17 +21,19 @@ public class Startup {
             
             switch(key)
             {
-                case NativeKeyEvent.VK_F1:
-                    init();
-                    break;
                 case NativeKeyEvent.VK_F2:
                     start();
                     break;
                 case NativeKeyEvent.VK_F3:
                     stop();
                     break;
+                case NativeKeyEvent.VK_UP:
+                    reactorPlus();
+                    break;
             }
         }    
+        
+        _input.println("GAME OVER");
     }    
     
     private void init() {
@@ -40,17 +42,25 @@ public class Startup {
         _devices.add(new Sensor("Temperature", _input));
         _devices.add(new Sensor("Voltage", _input));
         _devices.add(new Sensor("Pressure", _input));
+        _devices.add(new Reactor(_input));
     }
 
     private void start() {
-       for(Device d : _devices){
-           d.start();
-       }
+
+        if(_devices == null)
+            init();
+        
+        for(Device d : _devices)
+            d.start();        
     }
 
     private void stop() {
-       for(Device d : _devices){
+       for(Device d : _devices)
            d.stop();
-       }
     }    
+
+    private void reactorPlus() {
+        _input.println("fef");
+        //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }
