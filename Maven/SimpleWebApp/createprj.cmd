@@ -1,0 +1,1 @@
+ mvn archetype:generate -DgroupId=org.sonatype.mavenbook.simpleweb -DartifactId=simple-webapp -Dpackage=org.sonatype.mavenbook -Dversion=1.0-SNAPSHOT

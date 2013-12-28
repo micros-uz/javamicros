@@ -1,0 +1,1 @@
+mvn archetype:generate -DgroupId=org.sonatype.mavenbook.custom -DartifactId=simple-weather -Dpackage=org.sonatype.mavenbook -Dversion=1.0

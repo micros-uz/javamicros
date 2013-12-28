@@ -1,0 +1,2 @@
+cd simple
+mvn install

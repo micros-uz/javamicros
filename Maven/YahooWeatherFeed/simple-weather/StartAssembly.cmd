@@ -1,0 +1,1 @@
+java -cp target/simple-weather-1.0-jar-with-dependencies.jar       org.sonatype.mavenbook.weather.Main 10002
