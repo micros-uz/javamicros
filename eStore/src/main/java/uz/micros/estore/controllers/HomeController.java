@@ -1,4 +1,4 @@
-package uz.micros.controllers;
+package uz.micros.estore.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class HomeController {
     @RequestMapping(method = RequestMethod.GET)
     public String printWelcome(ModelMap model) {
-        model.addAttribute("message", "Heluulo world!");
+        model.addAttribute("message", "Hi, eStore!");
         return "hello";
     }
 }
