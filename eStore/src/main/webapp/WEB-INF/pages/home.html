@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+
+</head>
+<body>
+    <h2 th:text="${message}"></h2>
+    <h3 th:text="${curDate}"></h3>
+    <span th:inline="text">[[${'Current date is : '+beans.dateFormatter.getCurrentDate()}]]</span>
+</body>
+</html>

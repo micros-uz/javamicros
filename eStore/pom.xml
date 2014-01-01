@@ -10,6 +10,7 @@
     <properties>
         <spring.version>4.0.0.RELEASE</spring.version>
         <jdk.version>1.7</jdk.version>
+        <thymeleaf.version>2.1.2.RELEASE</thymeleaf.version>
     </properties>
 
     <dependencies>
@@ -50,12 +51,28 @@
             <version>${spring.version}</version>
             <scope>test</scope>
         </dependency>
-
+        <dependency>
+            <groupId>joda-time</groupId>
+            <artifactId>joda-time</artifactId>
+            <version>2.1</version>
+        </dependency>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.8.2</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.thymeleaf</groupId>
+            <artifactId>thymeleaf</artifactId>
+            <version>${thymeleaf.version}</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.thymeleaf</groupId>
+            <artifactId>thymeleaf-spring3</artifactId>
+            <version>${thymeleaf.version}</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 

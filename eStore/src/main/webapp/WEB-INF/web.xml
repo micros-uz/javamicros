@@ -5,6 +5,7 @@
 
 	<display-name>eStore Applications</display-name>
 
+
     <servlet>
 		<servlet-name>mvc-dispatcher</servlet-name>
 		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
