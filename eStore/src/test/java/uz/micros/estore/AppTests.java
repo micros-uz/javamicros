@@ -1,4 +1,4 @@
-package com.springapp.mvc;
+package uz.micros.estore;
 
 import org.junit.Before;
 import org.junit.Test;

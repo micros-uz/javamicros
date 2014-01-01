@@ -22,7 +22,9 @@
           <element id="library" level="project" name="Maven: ognl:ognl:3.0.6" />
           <element id="library" level="project" name="Maven: org.javassist:javassist:3.16.1-GA" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.6.1" />
-          <element id="library" level="project" name="Maven: org.thymeleaf:thymeleaf-spring3:2.1.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.thymeleaf:thymeleaf-spring4:2.1.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.webjars:bootstrap:3.0.3" />
+          <element id="library" level="project" name="Maven: org.webjars:jquery:1.9.0" />
         </element>
       </element>
     </root>

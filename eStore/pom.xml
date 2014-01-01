@@ -10,6 +10,8 @@
     <properties>
         <spring.version>4.0.0.RELEASE</spring.version>
         <jdk.version>1.7</jdk.version>
+        <junit.version>4.11</junit.version>
+        <jetty.version>8.1.8.v20121106</jetty.version>
         <thymeleaf.version>2.1.2.RELEASE</thymeleaf.version>
     </properties>
 
@@ -87,11 +89,17 @@
         </dependency>
         <dependency>
             <groupId>org.thymeleaf</groupId>
-            <artifactId>thymeleaf-spring3</artifactId>
+            <artifactId>thymeleaf-spring4</artifactId>
             <version>${thymeleaf.version}</version>
             <scope>compile</scope>
         </dependency>
 
+        <!-- Web Jars -->
+        <dependency>
+            <groupId>org.webjars</groupId>
+            <artifactId>bootstrap</artifactId>
+            <version>3.0.3</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -116,7 +124,8 @@
             </plugin>
             <plugin>
                 <groupId>org.mortbay.jetty</groupId>
-                <artifactId>maven-jetty-plugin</artifactId>
+                <artifactId>jetty-maven-plugin</artifactId>
+                <version>${jetty.version}</version>
             </plugin>
             <plugin>
                 <groupId>org.apache.tomcat.maven</groupId>
