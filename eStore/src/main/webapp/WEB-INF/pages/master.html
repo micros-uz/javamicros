@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+    <title>Layout page</title>
+    <!--
+
+    NATIVE WAY OF LAYOUTING
+    http://blog.codeleak.pl/2013/11/thymeleaf-template-layouts-in-spring.html
+
+    -->
+</head>
+<body>
+<header>
+    <h1>My website</h1>
+</header>
+<section layout:fragment="content">
+    <p>Page content goes here</p>
+</section>
+<footer>
+    <p>My footer</p>
+    <p layout:fragment="custom-footer">Custom footer here</p>
+</footer>
+</body>
+</html>

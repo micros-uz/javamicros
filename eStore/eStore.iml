@@ -52,6 +52,7 @@
     <orderEntry type="library" name="Maven: org.javassist:javassist:3.16.1-GA" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.6.1" level="project" />
     <orderEntry type="library" name="Maven: org.thymeleaf:thymeleaf-spring4:2.1.2.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect:1.2.1" level="project" />
     <orderEntry type="library" name="Maven: org.webjars:bootstrap:3.0.3" level="project" />
     <orderEntry type="library" name="Maven: org.webjars:jquery:1.9.0" level="project" />
   </component>
