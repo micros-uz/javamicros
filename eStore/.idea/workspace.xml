@@ -65,30 +65,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="142" column="30" selection-start="4746" selection-end="4746" vertical-scroll-proportion="0.0" vertical-offset="271" max-vertical-offset="3520">
-              <folding>
-                <marker date="1388772113591" expanded="true" signature="426:866" placeholder="..." />
-                <marker date="1388772113591" expanded="true" signature="886:3925" placeholder="..." />
-                <marker date="1388772113591" expanded="true" signature="1135:1305" placeholder="..." />
-                <marker date="1388772113591" expanded="true" signature="1522:1725" placeholder="..." />
-                <marker date="1388772113591" expanded="true" signature="1747:1906" placeholder="..." />
-                <marker date="1388772113591" expanded="true" signature="3994:5157" placeholder="..." />
-                <marker date="1388772113591" expanded="true" signature="4661:4848" placeholder="..." />
-                <marker date="1388772113591" expanded="true" signature="4869:5138" placeholder="..." />
-                <marker date="1388772113591" expanded="true" signature="5022:5116" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AppConfig.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/estore/config/AppConfig.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="16" column="19" selection-start="811" selection-end="811" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="440">
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -97,9 +80,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/estore/config/DispatcherConfig.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="24" column="11" selection-start="1174" selection-end="1174" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="726">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -107,16 +88,36 @@
       <file leaf-file-name="master.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/master.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="513" selection-end="513" vertical-scroll-proportion="-10.645162" vertical-offset="0" max-vertical-offset="792">
+            <state line="68" column="7" selection-start="2552" selection-end="2552" vertical-scroll-proportion="-27.096775" vertical-offset="656" max-vertical-offset="1650">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="BlogController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/estore/controllers/BlogController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="23" selection-start="463" selection-end="463" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="594">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blogIndex.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/blogIndex.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="7" selection-start="297" selection-end="297" vertical-scroll-proportion="0.6392252" vertical-offset="0" max-vertical-offset="413">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="19" selection-start="223" selection-end="223" vertical-scroll-proportion="0.352" vertical-offset="0" max-vertical-offset="616">
+            <state line="9" column="0" selection-start="253" selection-end="544" vertical-scroll-proportion="-2.1290324" vertical-offset="132" max-vertical-offset="594">
               <folding />
             </state>
           </provider>
@@ -126,9 +127,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/estore/config/ThymeleafConfig.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="31" column="44" selection-start="1233" selection-end="1233" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1408">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -137,17 +136,6 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/estore/config/WebInitializer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="19" column="58" selection-start="828" selection-end="828" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="946">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AppTests.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/uz/micros/estore/AppTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="50" selection-start="952" selection-end="952" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="704">
               <folding />
             </state>
           </provider>
@@ -156,7 +144,7 @@
       <file leaf-file-name="HomeController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/estore/controllers/HomeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="29" selection-start="504" selection-end="504" vertical-scroll-proportion="0.0" vertical-offset="22" max-vertical-offset="462">
+            <state line="14" column="0" selection-start="505" selection-end="782" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="462">
               <folding />
             </state>
           </provider>
@@ -166,9 +154,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/estore/util/Interceptor.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="20" column="8" selection-start="736" selection-end="736" vertical-scroll-proportion="0.0" vertical-offset="211" max-vertical-offset="638">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -203,8 +189,10 @@
         <option value="$PROJECT_DIR$/src/main/java/uz/micros/estore/util/Interceptor.java" />
         <option value="$PROJECT_DIR$/src/main/java/uz/micros/estore/config/DispatcherConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/uz/micros/estore/config/ThymeleafConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/master.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/home.html" />
+        <option value="$PROJECT_DIR$/src/main/java/uz/micros/estore/controllers/BlogController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/blogIndex.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/master.html" />
       </list>
     </option>
   </component>
@@ -378,6 +366,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="estore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eStore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eStore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="estore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -781,12 +799,12 @@
       <workItem from="1388733558063" duration="3069000" />
       <workItem from="1388737966824" duration="53000" />
       <workItem from="1388738073309" duration="10363000" />
-      <workItem from="1388830166850" duration="6971000" />
+      <workItem from="1388830166850" duration="10871000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49244000" />
+    <option name="totallyTimeSpent" value="53144000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -815,7 +833,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32650074" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26614174" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22677165" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -849,15 +867,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="80" column="0" selection-start="2570" selection-end="2570" vertical-scroll-proportion="0.0" vertical-offset="1760" max-vertical-offset="1892">
           <folding>
-            <marker date="1388772113591" expanded="true" signature="426:866" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="886:3925" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="1135:1305" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="1522:1725" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="1747:1906" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="3994:5157" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="4661:4848" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="4869:5138" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="5022:5116" placeholder="..." />
+            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -866,15 +884,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="24" selection-start="507" selection-end="507" vertical-scroll-proportion="0.0" vertical-offset="220" max-vertical-offset="1740">
           <folding>
-            <marker date="1388772113591" expanded="true" signature="426:866" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="886:3925" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="1135:1305" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="1522:1725" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="1747:1906" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="3994:5157" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="4661:4848" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="4869:5138" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="5022:5116" placeholder="..." />
+            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -888,15 +906,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="67" column="51" selection-start="2208" selection-end="2208" vertical-scroll-proportion="0.0" vertical-offset="1173" max-vertical-offset="1720">
           <folding>
-            <marker date="1388772113591" expanded="true" signature="426:866" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="886:3925" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="1135:1305" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="1522:1725" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="1747:1906" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="3994:5157" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="4661:4848" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="4869:5138" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="5022:5116" placeholder="..." />
+            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -910,15 +928,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="67" column="31" selection-start="2177" selection-end="2177" vertical-scroll-proportion="0.0" vertical-offset="1200" max-vertical-offset="1720">
           <folding>
-            <marker date="1388772113591" expanded="true" signature="426:866" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="886:3925" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="1135:1305" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="1522:1725" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="1747:1906" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="3994:5157" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="4661:4848" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="4869:5138" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="5022:5116" placeholder="..." />
+            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1012,15 +1030,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="142" column="30" selection-start="4746" selection-end="4746" vertical-scroll-proportion="0.0" vertical-offset="271" max-vertical-offset="3520">
           <folding>
-            <marker date="1388772113591" expanded="true" signature="426:866" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="886:3925" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="1135:1305" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="1522:1725" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="1747:1906" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="3994:5157" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="4661:4848" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="4869:5138" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="5022:5116" placeholder="..." />
+            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1042,7 +1060,9 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/uz/micros/estore/AppTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="50" selection-start="952" selection-end="952" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="704">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1056,15 +1076,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/estore/util/Interceptor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="8" selection-start="736" selection-end="736" vertical-scroll-proportion="0.0" vertical-offset="211" max-vertical-offset="638">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/estore/controllers/HomeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="29" selection-start="504" selection-end="504" vertical-scroll-proportion="0.0" vertical-offset="22" max-vertical-offset="462">
           <folding />
         </state>
       </provider>
@@ -1072,47 +1083,66 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/estore/config/AppConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="19" selection-start="811" selection-end="811" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="440">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/estore/config/DispatcherConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="11" selection-start="1174" selection-end="1174" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="726">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/estore/config/WebInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="58" selection-start="828" selection-end="828" vertical-scroll-proportion="0.0" vertical-offset="66" max-vertical-offset="770">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/estore/config/ThymeleafConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="44" selection-start="1233" selection-end="1233" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1408">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/master.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/estore/controllers/HomeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="513" selection-end="513" vertical-scroll-proportion="-10.645162" vertical-offset="0" max-vertical-offset="792">
+        <state line="14" column="0" selection-start="505" selection-end="782" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="462">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="19" selection-start="223" selection-end="223" vertical-scroll-proportion="0.352" vertical-offset="0" max-vertical-offset="616">
+        <state line="9" column="0" selection-start="253" selection-end="544" vertical-scroll-proportion="-2.1290324" vertical-offset="132" max-vertical-offset="594">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/master.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="7" selection-start="2552" selection-end="2552" vertical-scroll-proportion="-27.096775" vertical-offset="656" max-vertical-offset="1650">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/estore/controllers/BlogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="23" selection-start="463" selection-end="463" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="594">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/blogIndex.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="7" selection-start="297" selection-end="297" vertical-scroll-proportion="0.6392252" vertical-offset="0" max-vertical-offset="413">
           <folding />
         </state>
       </provider>
