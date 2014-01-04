@@ -65,26 +65,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AppConfig.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/estore/config/AppConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="19" selection-start="811" selection-end="811" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="440">
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DispatcherConfig.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/estore/config/DispatcherConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="11" selection-start="1174" selection-end="1174" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="726">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="master.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/master.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -95,9 +75,9 @@
         </entry>
       </file>
       <file leaf-file-name="BlogController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/estore/controllers/BlogController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/estore/controller/BlogController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="23" selection-start="463" selection-end="463" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="594">
+            <state line="17" column="0" selection-start="590" selection-end="590" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="594">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,10 +85,42 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="blogIndex.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/blogIndex.html">
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="7" selection-start="297" selection-end="297" vertical-scroll-proportion="0.6392252" vertical-offset="0" max-vertical-offset="413">
+            <state line="53" column="26" selection-start="1875" selection-end="1875" vertical-scroll-proportion="1.0046403" vertical-offset="733" max-vertical-offset="3520">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Blog.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/estore/entity/Blog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="0" selection-start="80" selection-end="80" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="418">
+              <folding>
+                <element signature="e#110#111#0" expanded="true" />
+                <element signature="e#138#139#0" expanded="true" />
+                <element signature="e#180#181#0" expanded="true" />
+                <element signature="e#214#215#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseEntity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../jpersona - Copy/src/main/java/com/arusland/jpersona/entity/BaseEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="506">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blog.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/blog.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="6" selection-start="205" selection-end="205" vertical-scroll-proportion="-4.967742" vertical-offset="0" max-vertical-offset="396">
               <folding />
             </state>
           </provider>
@@ -142,19 +154,14 @@
         </entry>
       </file>
       <file leaf-file-name="HomeController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/estore/controllers/HomeController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/estore/controller/HomeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="505" selection-end="782" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="462">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Interceptor.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/estore/util/Interceptor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="8" selection-start="736" selection-end="736" vertical-scroll-proportion="0.0" vertical-offset="211" max-vertical-offset="638">
-              <folding />
+            <state line="11" column="0" selection-start="340" selection-end="617" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="462">
+              <folding>
+                <element signature="imports" expanded="false" />
+                <marker date="1388843639950" expanded="true" signature="277:309" placeholder="@{...}" />
+                <marker date="1388843639950" expanded="true" signature="435:617" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -182,7 +189,6 @@
         <option value="$PROJECT_DIR$/src/main/java/uz/micros/estore/util/DateFormatter.java" />
         <option value="$PROJECT_DIR$/src/main/java/uz/micros/estore/config/AppConfiguration.java" />
         <option value="$PROJECT_DIR$/src/main/java/uz/micros/estore/config/WebInitializer.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/uz/micros/estore/config/AppConfig.java" />
         <option value="$PROJECT_DIR$/src/test/java/uz/micros/estore/AppTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/uz/micros/estore/controllers/HomeController.java" />
@@ -190,9 +196,12 @@
         <option value="$PROJECT_DIR$/src/main/java/uz/micros/estore/config/DispatcherConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/uz/micros/estore/config/ThymeleafConfig.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/home.html" />
-        <option value="$PROJECT_DIR$/src/main/java/uz/micros/estore/controllers/BlogController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/blogIndex.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/master.html" />
+        <option value="$PROJECT_DIR$/src/main/java/uz/micros/estore/controllers/BlogController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/uz/micros/estore/controller/BlogController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/uz/micros/estore/entity/Blog.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -395,37 +404,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="eStore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="eStore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="estore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
+              <option name="myItemId" value="entity" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -799,12 +778,12 @@
       <workItem from="1388733558063" duration="3069000" />
       <workItem from="1388737966824" duration="53000" />
       <workItem from="1388738073309" duration="10363000" />
-      <workItem from="1388830166850" duration="10871000" />
+      <workItem from="1388830166850" duration="12587000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53144000" />
+    <option name="totallyTimeSpent" value="54860000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -866,34 +845,14 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="80" column="0" selection-start="2570" selection-end="2570" vertical-scroll-proportion="0.0" vertical-offset="1760" max-vertical-offset="1892">
-          <folding>
-            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="24" selection-start="507" selection-end="507" vertical-scroll-proportion="0.0" vertical-offset="220" max-vertical-offset="1740">
-          <folding>
-            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -905,17 +864,7 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="67" column="51" selection-start="2208" selection-end="2208" vertical-scroll-proportion="0.0" vertical-offset="1173" max-vertical-offset="1720">
-          <folding>
-            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -927,17 +876,7 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="67" column="31" selection-start="2177" selection-end="2177" vertical-scroll-proportion="0.0" vertical-offset="1200" max-vertical-offset="1720">
-          <folding>
-            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1026,23 +965,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="383" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="142" column="30" selection-start="4746" selection-end="4746" vertical-scroll-proportion="0.0" vertical-offset="271" max-vertical-offset="3520">
-          <folding>
-            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1388772113591" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.0.0.RELEASE/spring-context-4.0.0.RELEASE.jar!/org/springframework/context/annotation/ComponentScan.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="23" selection-start="450" selection-end="450" vertical-scroll-proportion="0.34727272" vertical-offset="51" max-vertical-offset="968">
@@ -1110,10 +1032,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/estore/controllers/HomeController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/estore/controller/HomeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="505" selection-end="782" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="462">
-          <folding />
+        <state line="11" column="0" selection-start="340" selection-end="617" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="462">
+          <folding>
+            <element signature="imports" expanded="false" />
+            <marker date="1388843639950" expanded="true" signature="277:309" placeholder="@{...}" />
+            <marker date="1388843639950" expanded="true" signature="435:617" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1131,18 +1057,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/estore/controllers/BlogController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/blog.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="23" selection-start="463" selection-end="463" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="594">
+        <state line="7" column="6" selection-start="205" selection-end="205" vertical-scroll-proportion="-4.967742" vertical-offset="0" max-vertical-offset="396">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/estore/controller/BlogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="590" selection-end="590" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="594">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/blogIndex.html">
+    <entry file="file://$PROJECT_DIR$/../../jpersona - Copy/src/main/java/com/arusland/jpersona/entity/BaseEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="7" selection-start="297" selection-end="297" vertical-scroll-proportion="0.6392252" vertical-offset="0" max-vertical-offset="413">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="506">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/estore/entity/Blog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="80" selection-end="80" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="418">
+          <folding>
+            <element signature="e#110#111#0" expanded="true" />
+            <element signature="e#138#139#0" expanded="true" />
+            <element signature="e#180#181#0" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="26" selection-start="1875" selection-end="1875" vertical-scroll-proportion="1.0046403" vertical-offset="733" max-vertical-offset="3520">
           <folding />
         </state>
       </provider>
