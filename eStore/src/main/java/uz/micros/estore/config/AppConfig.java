@@ -16,7 +16,7 @@ import uz.micros.estore.util.DateFormatter;
 @EnableWebMvc
 @ComponentScan(basePackages = "uz.micros.estore")
 @Import({ WebInitializer.class, DispatcherConfig.class})
-public class AppConfiguration {
+public class AppConfig {
 
     @Bean(name = "dateFormatter")
     public DateFormatter getDateFormatter(){
