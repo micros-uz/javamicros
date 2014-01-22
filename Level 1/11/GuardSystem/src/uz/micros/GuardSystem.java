@@ -1,51 +1,46 @@
 package uz.micros;
 
-import java.io.IOException;
-import java.lang.reflect.InvocationTargetException;
+import uz.micros.modules.*;
+
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class GuardSystem {
-
-    ArrayList<Plugin> plugins = new ArrayList<Plugin>();
+    private ArrayList<Plugin> plugins = new ArrayList<Plugin>();
 
     public void run() {
-        Input.print("Guard System 1.0 Micros Gmbh " + '\u00A9');
+        System.out.println("Guard System Micros MChJ 2014 " + '\u00A9' + " v1.0");
 
-        Input.print("Enter user code");
-        String s = Input.getLine();
-        boolean res = true;
+        System.out.println("Enter your code:");
 
-        SearchPlugins();
+        String s = new Scanner(System.in).nextLine();
 
-        for(Plugin p : plugins)
-            res &= p.validate(s);
+        loadModules();
 
-        Input.print("User is " + (res ? "allowed" : "prohibited") + " to enter");
+        boolean valid = checkCode(s);
+
+        System.out.println("Your code is "
+                + (valid ? "" : "in")
+                + "valid");
     }
 
-    private void SearchPlugins() {
+    private void loadModules() {
+        plugins.add(new IIVModule());
+        plugins.add(new MXXModule());
+    }
 
-        try {
-            Class[] classes = Loader.getClasses(this.getClass().getPackage().getName());
+    private boolean checkCode(String s) {
+        boolean res = true;
+        for(Plugin p:plugins){
+            System.out.println("MS# Sent to " + p.getClass().getName() + " " + s);
+            p.send(s);
 
-            for(Class cl : classes)
-                if (Plugin.class.isAssignableFrom(cl) &&
-                        !cl.isInterface()){
-                    plugins.add((Plugin)cl.getConstructor().newInstance());
-                }
-
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        } catch (NoSuchMethodException e) {
-            e.printStackTrace();
-        } catch (InvocationTargetException e) {
-            e.printStackTrace();
-        } catch (InstantiationException e) {
-            e.printStackTrace();
-        } catch (IllegalAccessException e) {
-            e.printStackTrace();
+            if (PluginEx.class.isAssignableFrom(p.getClass())){
+                res = res && ((PluginEx)p).allow(s);
+                System.out.println("MS# " + p.getClass().getName() + " says: " + res);
+            }
         }
+
+        return res && s.length() >= 8;
     }
 }
