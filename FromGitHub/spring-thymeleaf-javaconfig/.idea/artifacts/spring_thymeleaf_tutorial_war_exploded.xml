@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="spring-thymeleaf-tutorial:war exploded">
+    <output-path>$PROJECT_DIR$/target/spring-thymeleaf-tutorial</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="spring-thymeleaf-tutorial/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="spring-thymeleaf-tutorial" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

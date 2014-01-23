@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE ehcache>
+<ehcache>
+
+	<defaultCache 
+	  maxElementsInMemory="10000"
+	  eternal="false"
+	  timeToIdleSeconds="3600"
+	  timeToLiveSeconds="3600">
+	</defaultCache>
+	
+	<cache
+      name="Customers"
+      maxElementsInMemory="10000"
+      eternal="false"
+      timeToIdleSeconds="3600"
+      timeToLiveSeconds="3600">
+    </cache>
+    
+    <cache
+      name="Employees"
+      maxElementsInMemory="10000"
+      eternal="false"
+      timeToIdleSeconds="3600"
+      timeToLiveSeconds="3600">
+    </cache>
+    
+    <cache
+      name="Offices"
+      maxElementsInMemory="10000"
+      eternal="false"
+      timeToIdleSeconds="3600"
+      timeToLiveSeconds="3600">
+    </cache>
+    
+    <cache
+      name="OrderDetails"
+      maxElementsInMemory="10000"
+      eternal="false"
+      timeToIdleSeconds="3600"
+      timeToLiveSeconds="3600">
+    </cache>
+    
+    <cache
+      name="Orders"
+      maxElementsInMemory="10000"
+      eternal="false"
+      timeToIdleSeconds="3600"
+      timeToLiveSeconds="3600">
+    </cache>
+    
+    <cache
+      name="Payments"
+      maxElementsInMemory="10000"
+      eternal="false"
+      timeToIdleSeconds="3600"
+      timeToLiveSeconds="3600">
+    </cache>
+    
+    <cache
+      name="ProductLines"
+      maxElementsInMemory="10000"
+      eternal="false"
+      timeToIdleSeconds="3600"
+      timeToLiveSeconds="3600">
+    </cache>
+    
+    <cache
+      name="Products"
+      maxElementsInMemory="10000"
+      eternal="false"
+      timeToIdleSeconds="3600"
+      timeToLiveSeconds="3600">
+    </cache>
+	
+	<cache
+	  name="org.hibernate.cache.internal.StandardQueryCache"
+	  maxElementsInMemory="10000"
+	  eternal="false"
+	  timeToIdleSeconds="3600"
+	  timeToLiveSeconds="3600">
+	</cache>
+	
+	<cache
+	  name="org.hibernate.cache.spi.UpdateTimestampsCache"
+	  maxElementsInMemory="10000"
+	  eternal="true">
+	</cache>
+	
+</ehcache>

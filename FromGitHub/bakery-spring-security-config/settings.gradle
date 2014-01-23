@@ -1,0 +1,4 @@
+rootProject.name = "bakery-spring-security-config"
+
+include "bakery-spring-security-social-config"
+include "test-spring-security-social-web"

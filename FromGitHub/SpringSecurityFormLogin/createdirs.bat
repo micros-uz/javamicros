@@ -1,0 +1,9 @@
+@echo off
+mkdir src\main\java
+mkdir src\main\webapp\WEB-INF
+mkdir src\main\webapp\view
+mkdir src\main\java\com\makble\springmvcstart\config
+mkdir src\main\java\com\makble\springmvcstart\config\entity
+mkdir src\main\java\com\makble\springmvcstart\repository
+mkdir src\main\java\com\makble\springmvcstart\service
+mkdir src\main\java\com\makble\springmvcstart\controller

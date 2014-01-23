@@ -1,0 +1,22 @@
+*.class
+
+# Package Files #
+*.ear
+/build
+/bin
+
+# IDE Files #
+.classpath
+/.settings
+.project
+*/.settings
+
+# Gradle Files #
+/.gradle
+
+# JRevel Files #
+rebel.xml
+
+# ETC Files #
+.DS_Store
+*.log

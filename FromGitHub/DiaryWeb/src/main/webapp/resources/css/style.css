@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    height: 100%;
+}
+body {
+	font-family: Verdana, helvetica, arial, sans-serif;
+	font-size: 68.75%;
+	background: #fff;
+	color: #333;
+}
+a {
+    color: gray;
+    font-weight: bold;
+    outline: none;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+p {
+    margin: 0 0 18px
+}
+img {
+    border: none;
+}
+input {
+    vertical-align: middle;
+}
+
+table, tr, th, td {
+      border: 1px solid #ccc ;
+      border-collapse:collapse;
+}
+table th {
+    background-color: #CCC;
+}
+table td {
+    padding: 10px;
+    text-align: center;
+}
+
+#wrapper {
+    width: 100%;
+    min-width: 1000px;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    background: url(../images/side-bar-bg.png);
+    background-repeat: repeat-y;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+#header {
+    height: 100px;
+    background: #E8E8E8;
+    padding: 10px;
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+#middle {
+    width: 100%;
+    padding: 0 0 100px;
+    height: 1%;
+    position: relative;
+}
+#middle:after {
+    content: '.';
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+}
+#container {
+    width: 100%;
+    float: left;
+    overflow: hidden;
+}
+#content {
+/*    padding: 15px 0 0 270px;*/
+    padding: 10px;
+    float: left;
+}
+
+/* Sidebar Left
+-----------------------------------------------------------------------------*/
+#sideLeft {
+    float: left;
+    width: 250px;
+    position: relative;
+    padding: 10px;
+/*    margin-top: -50px;*/
+}
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+#footer {
+    margin: -50px auto 0;
+    min-width: 1000px;
+    height: 40px;
+    background: #CCC;
+    position: relative;
+    padding-top: 10px;
+}
