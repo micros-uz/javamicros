@@ -1,4 +1,4 @@
-package uz.micros;
+package uz.micros1;
 
 import java.util.Scanner;
 

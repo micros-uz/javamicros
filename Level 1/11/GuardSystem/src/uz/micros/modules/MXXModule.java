@@ -1,15 +1,17 @@
 package uz.micros.modules;
 
-import uz.micros.Plugin;
+import uz.micros.PluginEx;
 
-public class MXXModule implements Plugin{
+import java.util.Date;
+
+public class MXXModule implements PluginEx {
     @Override
-    public String getName() {
-        return null;
+    public void send(String code) {
+        System.out.println("Registererd: " +
+                new Date() + " " + code);
     }
 
-    @Override
-    public boolean validate(String data) {
-        return true;
+    public boolean allow(String code){
+        return !code.contains("x");
     }
 }

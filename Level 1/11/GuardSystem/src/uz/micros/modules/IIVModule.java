@@ -2,14 +2,12 @@ package uz.micros.modules;
 
 import uz.micros.Plugin;
 
+import java.util.Date;
+
 public class IIVModule implements Plugin {
     @Override
-    public String getName() {
-        return "IIV sec module V 1.0";
-    }
-
-    @Override
-    public boolean validate(String data) {
-        return true;
+    public void send(String code) {
+        System.out.println("Registererd: " +
+                new Date() + " " + code);
     }
 }
