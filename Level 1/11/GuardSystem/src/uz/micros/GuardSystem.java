@@ -5,7 +5,7 @@ import uz.micros.modules.*;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class GuardSystem {
+public class GuardSystem implements CameraHost {
     private ArrayList<Plugin> plugins = new ArrayList<Plugin>();
 
     public void run() {
@@ -31,16 +31,28 @@ public class GuardSystem {
 
     private boolean checkCode(String s) {
         boolean res = true;
-        for(Plugin p:plugins){
+        for (Plugin p : plugins) {
             System.out.println("MS# Sent to " + p.getClass().getName() + " " + s);
             p.send(s);
 
-            if (PluginEx.class.isAssignableFrom(p.getClass())){
-                res = res && ((PluginEx)p).allow(s);
+            if (PluginEx.class.isAssignableFrom(p.getClass())) {
+                res = res && ((PluginEx) p).allow(s, this);
                 System.out.println("MS# " + p.getClass().getName() + " says: " + res);
             }
         }
 
         return res && s.length() >= 8;
+    }
+
+    @Override
+    public byte[] takePhoto() {
+        byte[] mas = new byte[4];
+
+        mas[0] = (byte) 0xff;
+        mas[1] = (byte) 0xd8;
+        mas[2] = (byte) 0xff;
+        mas[3] = (byte) 0xe0;
+
+        return mas;
     }
 }
