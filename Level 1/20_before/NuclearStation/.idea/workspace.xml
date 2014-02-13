@@ -1,0 +1,1053 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/uz/micros/devices/SensorTask.java" line="12" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e3633cf0-3c66-46ac-b063-6bf6082f074b" name="Default" comment="" />
+    <ignored path="NuclearStation.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/uz/micros/input/InputKeyListener.java" line="26" class="uz.micros.input.InputKeyListener" package="uz.micros.input">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
+    <breakpoint_rules />
+    <ui_properties />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="NuclearStation" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="SensorStartThread.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/uz/micros/devices/SensorStartThread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="19" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="620">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Input.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/uz/micros/Input.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="0" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="460">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SettingsManager.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/uz/micros/SettingsManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="53" column="37" selection-start="1394" selection-end="1394" vertical-scroll-proportion="0.0" vertical-offset="900" max-vertical-offset="2040">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1078#1086#0" expanded="true" />
+                <element signature="e#2396#2404#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PressureSensor.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/uz/micros/devices/PressureSensor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="11" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Sensor.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/uz/micros/devices/Sensor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="3" selection-start="495" selection-end="495" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="1040">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Notifier.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/uz/micros/Notifier.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="5" selection-start="51" selection-end="53" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="220">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Startup.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/uz/micros/Startup.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="57" selection-start="230" selection-end="230" vertical-scroll-proportion="0.42424244" vertical-offset="0" max-vertical-offset="900">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/uz/micros/Turbine.java" />
+        <option value="$PROJECT_DIR$/src/uz/micros/Notifier.java" />
+        <option value="$PROJECT_DIR$/src/uz/micros/devices/TemperatureSensor.java" />
+        <option value="$PROJECT_DIR$/src/uz/micros/devices/VoltageSensor.java" />
+        <option value="$PROJECT_DIR$/src/uz/micros/input/InputKeyListener.java" />
+        <option value="$PROJECT_DIR$/src/uz/micros/devices/aa/BaseDevice.java" />
+        <option value="$PROJECT_DIR$/src/uz/micros/devices/Device.java" />
+        <option value="$PROJECT_DIR$/src/uz/micros/devices/Person.java" />
+        <option value="$PROJECT_DIR$/src/uz/micros/devices/Turbine.java" />
+        <option value="$PROJECT_DIR$/src/uz/micros/Main.java" />
+        <option value="$PROJECT_DIR$/src/uz/micros/Input.java" />
+        <option value="$PROJECT_DIR$/src/uz/micros/devices/SensorStartThread.java" />
+        <option value="$PROJECT_DIR$/src/uz/micros/devices/PressureSensor.java" />
+        <option value="$PROJECT_DIR$/src/uz/micros/devices/BaseDevice.java" />
+        <option value="$PROJECT_DIR$/src/uz/micros/devices/Sensor.java" />
+        <option value="$PROJECT_DIR$/src/uz/micros/devices/SensorTask.java" />
+        <option value="$PROJECT_DIR$/src/uz/micros/CommandProcessor.java" />
+        <option value="$PROJECT_DIR$/src/uz/micros/LoadSettings.java" />
+        <option value="$PROJECT_DIR$/src/uz/micros/Startup.java" />
+        <option value="$PROJECT_DIR$/src/uz/micros/SettingsManager.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1040" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NuclearStation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NuclearStation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NuclearStation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NuclearStation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NuclearStation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="micros" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="FullScreen" value="false" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/JNativeHook.jar!/" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="uz.micros.devices" />
+      <recent name="uz.micros" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="uz.micros.Main" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="NuclearStation" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails" singleton="true">
+      <module name="" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="false" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e3633cf0-3c66-46ac-b063-6bf6082f074b" name="Default" comment="" />
+      <created>1389964835607</created>
+      <updated>1389964835607</updated>
+      <workItem from="1389964836904" duration="6239000" />
+      <workItem from="1390222277194" duration="6867000" />
+      <workItem from="1390394740251" duration="28000" />
+      <workItem from="1390831102942" duration="3601000" />
+      <workItem from="1391000241803" duration="495000" />
+      <workItem from="1391000988758" duration="191000" />
+      <workItem from="1391001478905" duration="2247000" />
+      <workItem from="1391004932146" duration="2975000" />
+      <workItem from="1391172247593" duration="7896000" />
+      <workItem from="1391431687920" duration="5863000" />
+      <workItem from="1391437558108" duration="52000" />
+      <workItem from="1391437726334" duration="1956000" />
+      <workItem from="1391604056790" duration="123000" />
+      <workItem from="1391777097008" duration="5593000" />
+      <workItem from="1392038754972" duration="5694000" />
+      <workItem from="1392209549820" duration="7927000" />
+      <workItem from="1392301263734" duration="1195000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="58942000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1040" height="744" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48031497" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32755905" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30859375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38582677" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="DSM" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="92" y="94" width="1182" height="582" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988167" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3846154" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="DSM" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" x="92" y="94" width="1182" height="582" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22108346" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.336478" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988167" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5157233" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3846154" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USERS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/uz/micros/SettingsManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="0" selection-start="1090" selection-end="1090" vertical-scroll-proportion="0.0" vertical-offset="880" max-vertical-offset="1780">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1078#1086#0" expanded="true" />
+            <element signature="e#2396#2404#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/uz/micros/Notifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="5" selection-start="51" selection-end="53" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="220">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/uz/micros/devices/Sensor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="3" selection-start="495" selection-end="495" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1080">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/uz/micros/input/InputKeyListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="611" selection-end="611" vertical-scroll-proportion="0.0" vertical-offset="759" max-vertical-offset="1386">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/uz/micros/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="8" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="462" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/uz/micros/Startup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="11" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0" vertical-offset="462" max-vertical-offset="1980" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/uz/micros/Startup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="11" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0" vertical-offset="565" max-vertical-offset="2820" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/uz/micros/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="3" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="462" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/uz/micros/Startup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="35" selection-start="908" selection-end="908" vertical-scroll-proportion="0.0" vertical-offset="1485" max-vertical-offset="1815" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/uz/micros/devices/Turbine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="48" selection-start="218" selection-end="258" vertical-scroll-proportion="0.0" vertical-offset="429" max-vertical-offset="858" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/uz/micros/Input.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="22" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0" vertical-offset="363" max-vertical-offset="726" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/uz/micros/devices/Sensor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="64" selection-start="271" selection-end="327" vertical-scroll-proportion="0.0" vertical-offset="325" max-vertical-offset="957" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/uz/micros/devices/Device.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="23" selection-start="102" selection-end="102" vertical-scroll-proportion="0.0" vertical-offset="132" max-vertical-offset="396" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_45/src.zip!/java/util/Scanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1584" column="0" selection-start="58829" selection-end="58829" vertical-scroll-proportion="0.33891213" vertical-offset="72769" max-vertical-offset="123704" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/uz/micros/input/InputKeyListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="634" selection-end="634" vertical-scroll-proportion="0.3356009" vertical-offset="545" max-vertical-offset="1254">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_45/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="19" selection-start="1286" selection-end="1286" vertical-scroll-proportion="-0.29936305" vertical-offset="688" max-vertical-offset="38808" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/uz/micros/devices/Device.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="16" selection-start="70" selection-end="70" vertical-scroll-proportion="0.16256158" vertical-offset="0" max-vertical-offset="609" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_45/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="973" column="19" selection-start="37456" selection-end="37456" vertical-scroll-proportion="0.148423" vertical-offset="30940" max-vertical-offset="101508" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_45/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="17" selection-start="513" selection-end="517" vertical-scroll-proportion="0.8619247" vertical-offset="17" max-vertical-offset="17721" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_45/src.zip!/java/lang/InterruptedException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="36" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0" vertical-offset="627" max-vertical-offset="1716" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_45/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1622" column="28" selection-start="63191" selection-end="63197" vertical-scroll-proportion="-1.2862985" vertical-offset="53495" max-vertical-offset="67221" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_45/src.zip!/java/util/Timer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="189" column="27" selection-start="6970" selection-end="6970" vertical-scroll-proportion="0.33333334" vertical-offset="5187" max-vertical-offset="23100" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/uz/micros/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_45/src.zip!/java/util/Date.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="161" column="11" selection-start="6329" selection-end="6329" vertical-scroll-proportion="3.338785" vertical-offset="2762" max-vertical-offset="42999" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_45/src.zip!/java/util/TimerTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="8" selection-start="1479" selection-end="1483" vertical-scroll-proportion="-1.4520885" vertical-offset="2241" max-vertical-offset="4653" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_45/src.zip!/java/util/Random.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="186" column="19" selection-start="6754" selection-end="6761" vertical-scroll-proportion="0.2637131" vertical-offset="5188" max-vertical-offset="18546" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_45/src.zip!/java/io/PrintStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="869" column="23" selection-start="29924" selection-end="29924" vertical-scroll-proportion="-0.71097046" vertical-offset="28123" max-vertical-offset="36564" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_45/src.zip!/java/lang/Iterable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="15" selection-start="345" selection-end="352" vertical-scroll-proportion="0.33259425" vertical-offset="114" max-vertical-offset="957" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_45/src.zip!/java/util/Collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="126" column="17" selection-start="5453" selection-end="5453" vertical-scroll-proportion="0.33259425" vertical-offset="3249" max-vertical-offset="14487" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_45/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="108" column="37" selection-start="4228" selection-end="4228" vertical-scroll-proportion="0.33259425" vertical-offset="2655" max-vertical-offset="19239" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_45/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="102" column="20" selection-start="4186" selection-end="4186" vertical-scroll-proportion="0.40576497" vertical-offset="2424" max-vertical-offset="38115">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_45/src.zip!/java/nio/file/Files.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2997" column="22" selection-start="135191" selection-end="135191" vertical-scroll-proportion="0.2826087" vertical-offset="11275" max-vertical-offset="12342">
+          <folding>
+            <element signature="docComment;class#Files#0" expanded="false" />
+            <element signature="docComment;method#provider#0;class#Files#0" expanded="false" />
+            <element signature="method#provider#0;class#Files#0" expanded="false" />
+            <element signature="docComment;method#newInputStream#0;class#Files#0" expanded="false" />
+            <element signature="method#newInputStream#0;class#Files#0" expanded="false" />
+            <element signature="docComment;method#newOutputStream#0;class#Files#0" expanded="false" />
+            <element signature="method#newOutputStream#0;class#Files#0" expanded="false" />
+            <element signature="docComment;method#newByteChannel#0;class#Files#0" expanded="false" />
+            <element signature="method#newByteChannel#0;class#Files#0" expanded="false" />
+            <element signature="docComment;method#newByteChannel#1;class#Files#0" expanded="false" />
+            <element signature="method#newByteChannel#1;class#Files#0" expanded="false" />
+            <element signature="class#AcceptAllFilter#0;class#Files#0" expanded="false" />
+            <element signature="method#accept#0;class#AcceptAllFilter#0;class#Files#0" expanded="false" />
+            <element signature="docComment;method#newDirectoryStream#0;class#Files#0" expanded="false" />
+            <element signature="method#newDirectoryStream#0;class#Files#0" expanded="false" />
+            <element signature="docComment;method#newDirectoryStream#1;class#Files#0" expanded="false" />
+            <element signature="method#newDirectoryStream#1;class#Files#0" expanded="false" />
+            <element signature="docComment;method#newDirectoryStream#2;class#Files#0" expanded="false" />
+            <element signature="method#newDirectoryStream#2;class#Files#0" expanded="false" />
+            <element signature="docComment;method#createFile#0;class#Files#0" expanded="false" />
+            <element signature="method#createFile#0;class#Files#0" expanded="false" />
+            <element signature="docComment;method#createDirectory#0;class#Files#0" expanded="false" />
+            <element signature="method#createDirectory#0;class#Files#0" expanded="false" />
+            <element signature="docComment;method#createDirectories#0;class#Files#0" expanded="false" />
+            <element signature="method#createDirectories#0;class#Files#0" expanded="false" />
+            <element signature="docComment;method#createAndCheckIsDirectory#0;class#Files#0" expanded="false" />
+            <element signature="method#createAndCheckIsDirectory#0;class#Files#0" expanded="false" />
+            <element signature="docComment;method#createTempFile#0;class#Files#0" expanded="false" />
+            <element signature="method#createTempFile#0;class#Files#0" expanded="false" />
+            <element signature="docComment;method#createTempFile#1;class#Files#0" expanded="false" />
+            <element signature="method#createTempFile#1;class#Files#0" expanded="false" />
+            <element signature="docComment;method#createTempDirectory#0;class#Files#0" expanded="false" />
+            <element signature="method#createTempDirectory#0;class#Files#0" expanded="false" />
+            <element signature="docComment;method#createTempDirectory#1;class#Files#0" expanded="false" />
+            <element signature="method#createTempDirectory#1;class#Files#0" expanded="false" />
+            <element signature="docComment;method#createSymbolicLink#0;class#Files#0" expanded="false" />
+            <element signature="method#createSymbolicLink#0;class#Files#0" expanded="false" />
+            <element signature="docComment;method#createLink#0;class#Files#0" expanded="false" />
+            <element signature="method#createLink#0;class#Files#0" expanded="false" />
+            <element signature="docComment;method#delete#0;class#Files#0" expanded="false" />
+            <element signature="method#delete#0;class#Files#0" expanded="false" />
+            <element signature="docComment;method#deleteIfExists#0;class#Files#0" expanded="false" />
+            <element signature="method#deleteIfExists#0;class#Files#0" expanded="false" />
+            <element signature="docComment;method#copy#0;class#Files#0" expanded="false" />
+            <element signature="method#copy#0;class#Files#0" expanded="false" />
+            <element signature="docComment;method#move#0;class#Files#0" expanded="false" />
+            <element signature="method#move#0;class#Files#0" expanded="false" />
+            <element signature="docComment;method#readSymbolicLink#0;class#Files#0" expanded="false" />
+            <element signature="method#readSymbolicLink#0;class#Files#0" expanded="false" />
+            <element signature="docComment;method#getFileStore#0;class#Files#0" expanded="false" />
+            <element signature="method#getFileStore#0;class#Files#0" expanded="false" />
+            <element signature="docComment;method#isSameFile#0;class#Files#0" expanded="false" />
+            <element signature="method#isSameFile#0;class#Files#0" expanded="false" />
+            <element signature="docComment;method#isHidden#0;class#Files#0" expanded="false" />
+            <element signature="method#isHidden#0;class#Files#0" expanded="false" />
+            <element signature="class#FileTypeDetectors#0;class#Files#0" expanded="false" />
+            <element signature="method#createDefaultFileTypeDetector#0;class#FileTypeDetectors#0;class#Files#0" expanded="false" />
+            <element signature="method#loadInstalledDetectors#0;class#FileTypeDetectors#0;class#Files#0" expanded="false" />
+            <element signature="docComment;method#probeContentType#0;class#Files#0" expanded="false" />
+            <element signature="method#probeContentType#0;class#Files#0" expanded="false" />
+            <element signature="docComment;method#getFileAttributeView#0;class#Files#0" expanded="false" />
+            <element signature="method#getFileAttributeView#0;class#Files#0" expanded="false" />
+            <element signature="docComment;method#readAttributes#0;class#Files#0" expanded="false" />
+            <element signature="method#readAttributes#0;class#Files#0" expanded="false" />
+            <element signature="docComment;method#setAttribute#0;class#Files#0" expanded="false" />
+            <element signature="method#setAttribute#0;class#Files#0" expanded="false" />
+            <element signature="docComment;method#getAttribute#0;class#Files#0" expanded="false" />
+            <element signature="method#getAttribute#0;class#Files#0" expanded="false" />
+            <element signature="docComment;method#readAttributes#1;class#Files#0" expanded="false" />
+            <element signature="method#readAttributes#1;class#Files#0" expanded="false" />
+            <element signature="docComment;method#getPosixFilePermissions#0;class#Files#0" expanded="false" />
+            <element signature="method#getPosixFilePermissions#0;class#Files#0" expanded="false" />
+            <element signature="docComment;method#setPosixFilePermissions#0;class#Files#0" expanded="false" />
+            <element signature="method#setPosixFilePermissions#0;class#Files#0" expanded="false" />
+            <element signature="docComment;method#getOwner#0;class#Files#0" expanded="false" />
+            <element signature="method#getOwner#0;class#Files#0" expanded="false" />
+            <element signature="docComment;method#setOwner#0;class#Files#0" expanded="false" />
+            <element signature="method#setOwner#0;class#Files#0" expanded="false" />
+            <element signature="docComment;method#isSymbolicLink#0;class#Files#0" expanded="false" />
+            <element signature="method#isSymbolicLink#0;class#Files#0" expanded="false" />
+            <element signature="docComment;method#isDirectory#0;class#Files#0" expanded="false" />
+            <element signature="method#isDirectory#0;class#Files#0" expanded="false" />
+            <element signature="docComment;method#isRegularFile#0;class#Files#0" expanded="false" />
+            <element signature="method#isRegularFile#0;class#Files#0" expanded="false" />
+            <element signature="docComment;method#getLastModifiedTime#0;class#Files#0" expanded="false" />
+            <element signature="method#getLastModifiedTime#0;class#Files#0" expanded="false" />
+            <element signature="docComment;method#setLastModifiedTime#0;class#Files#0" expanded="false" />
+            <element signature="method#setLastModifiedTime#0;class#Files#0" expanded="false" />
+            <element signature="docComment;method#size#0;class#Files#0" expanded="false" />
+            <element signature="method#size#0;class#Files#0" expanded="false" />
+            <element signature="docComment;method#followLinks#0;class#Files#0" expanded="false" />
+            <element signature="method#followLinks#0;class#Files#0" expanded="false" />
+            <element signature="docComment;method#exists#0;class#Files#0" expanded="false" />
+            <element signature="method#exists#0;class#Files#0" expanded="false" />
+            <element signature="docComment;method#notExists#0;class#Files#0" expanded="false" />
+            <element signature="method#notExists#0;class#Files#0" expanded="false" />
+            <element signature="docComment;method#isAccessible#0;class#Files#0" expanded="false" />
+            <element signature="method#isAccessible#0;class#Files#0" expanded="false" />
+            <element signature="docComment;method#isReadable#0;class#Files#0" expanded="false" />
+            <element signature="method#isReadable#0;class#Files#0" expanded="false" />
+            <element signature="docComment;method#isWritable#0;class#Files#0" expanded="false" />
+            <element signature="method#isWritable#0;class#Files#0" expanded="false" />
+            <element signature="docComment;method#isExecutable#0;class#Files#0" expanded="false" />
+            <element signature="method#isExecutable#0;class#Files#0" expanded="false" />
+            <element signature="docComment;method#walkFileTree#0;class#Files#0" expanded="false" />
+            <element signature="method#walkFileTree#0;class#Files#0" expanded="false" />
+            <element signature="docComment;method#walkFileTree#1;class#Files#0" expanded="false" />
+            <element signature="method#walkFileTree#1;class#Files#0" expanded="false" />
+            <element signature="docComment;method#newBufferedReader#0;class#Files#0" expanded="false" />
+            <element signature="method#newBufferedReader#0;class#Files#0" expanded="false" />
+            <element signature="docComment;method#newBufferedWriter#0;class#Files#0" expanded="false" />
+            <element signature="method#newBufferedWriter#0;class#Files#0" expanded="false" />
+            <element signature="docComment;method#copy#1;class#Files#0" expanded="false" />
+            <element signature="method#copy#1;class#Files#0" expanded="false" />
+            <element signature="docComment;method#copy#2;class#Files#0" expanded="false" />
+            <element signature="method#copy#2;class#Files#0" expanded="false" />
+            <element signature="e#128534#128584#0" expanded="false" />
+            <element signature="docComment;method#copy#3;class#Files#0" expanded="false" />
+            <element signature="method#copy#3;class#Files#0" expanded="false" />
+            <element signature="method#read#0;class#Files#0" expanded="false" />
+            <element signature="e#131525#131594#0" expanded="false" />
+            <element signature="docComment;method#readAllBytes#0;class#Files#0" expanded="false" />
+            <element signature="method#readAllBytes#0;class#Files#0" expanded="false" />
+            <element signature="method#readAllLines#0;class#Files#0" expanded="false" />
+            <element signature="docComment;method#write#0;class#Files#0" expanded="false" />
+            <element signature="method#write#0;class#Files#0" expanded="false" />
+            <element signature="docComment;method#write#1;class#Files#0" expanded="false" />
+            <element signature="method#write#1;class#Files#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_45/src.zip!/java/io/IOException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="6" selection-start="528" selection-end="528" vertical-scroll-proportion="0.3320158" vertical-offset="327" max-vertical-offset="2772" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_45/src.zip!/java/nio/file/Path.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="97" column="17" selection-start="3938" selection-end="3938" vertical-scroll-proportion="-8.776042" vertical-offset="7398" max-vertical-offset="25773" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_45/src.zip!/java/nio/file/FileSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="295" column="0" selection-start="13251" selection-end="13251" vertical-scroll-proportion="0.390625" vertical-offset="8619" max-vertical-offset="14784" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_45/src.zip!/java/nio/file/Paths.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="47" selection-start="2372" selection-end="2378" vertical-scroll-proportion="0.5052083" vertical-offset="1326" max-vertical-offset="4323">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_45/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1511" column="28" selection-start="62832" selection-end="62832" vertical-scroll-proportion="0.33333334" vertical-offset="47395" max-vertical-offset="103521">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/uz/micros/devices/BaseDevice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="19" selection-start="1085" selection-end="1085" vertical-scroll-proportion="-0.24060151" vertical-offset="1779" max-vertical-offset="2178">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/uz/micros/devices/Turbine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="3" selection-start="274" selection-end="274" vertical-scroll-proportion="0.5685484" vertical-offset="79" max-vertical-offset="380">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/uz/micros/devices/VoltageSensor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="169" selection-end="169" vertical-scroll-proportion="0.62068963" vertical-offset="0" max-vertical-offset="300">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/uz/micros/devices/TemperatureSensor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="13" selection-start="69" selection-end="69" vertical-scroll-proportion="0.27586207" vertical-offset="0" max-vertical-offset="300">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/uz/micros/devices/SensorTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="13" selection-start="347" selection-end="347" vertical-scroll-proportion="0.22829582" vertical-offset="249" max-vertical-offset="560">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/uz/micros/CommandProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="31" selection-start="51" selection-end="51" vertical-scroll-proportion="0.12861736" vertical-offset="0" max-vertical-offset="1000">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/uz/micros/devices/Sensor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="3" selection-start="495" selection-end="495" vertical-scroll-proportion="0.0" vertical-offset="693" max-vertical-offset="1782">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_45/src.zip!/java/lang/reflect/Constructor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="210" column="22" selection-start="7441" selection-end="7441" vertical-scroll-proportion="0.33179724" vertical-offset="3296" max-vertical-offset="12840">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/uz/micros/SettingsManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="37" selection-start="1394" selection-end="1394" vertical-scroll-proportion="0.0" vertical-offset="900" max-vertical-offset="2040">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1078#1086#0" expanded="true" />
+            <element signature="e#2396#2404#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/uz/micros/devices/PressureSensor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="11" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/uz/micros/devices/SensorStartThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="19" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="620">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/uz/micros/Input.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="759">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/uz/micros/Notifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="5" selection-start="51" selection-end="53" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="220">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/uz/micros/Startup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="57" selection-start="230" selection-end="230" vertical-scroll-proportion="0.42424244" vertical-offset="0" max-vertical-offset="900">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>NuclearStation</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>JNativeHook</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+
