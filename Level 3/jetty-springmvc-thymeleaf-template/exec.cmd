@@ -1,0 +1,1 @@
+mvn exec:java -Dexec.mainClass=ca.unx.template.Main

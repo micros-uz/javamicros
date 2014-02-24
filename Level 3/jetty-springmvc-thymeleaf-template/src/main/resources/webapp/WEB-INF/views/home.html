@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Home</title>
+</head>
+<body>
+<h1>Hello World! This is a Thymeleaf template.</h1>
+
+<p>This is a Thymeleaf template.</p>
+
+<p>Server time: <span th:text="${serverTime}"></span></p>
+
+<p>Here are some items:</p>
+<ul>
+    <li th:each="item : ${someItems}" th:text="${item}"></li>
+</ul>
+
+<p>Do we have an echo service?</p>
+<div th:if="${echoService == null}">
+    <p>No, echo service is null.</p>
+</div>
+<div th:if="${echoService != null}">
+    <p>Yes: sending "echo": got <span th:text="${echoService.echo('echo')}"></span></p>
+</div>
+
+<p>Do we have a message from the dummy service:</p>
+
+<div th:if="${dummyService == null}">
+    <p>No, dummy service is null.</p>
+</div>
+<div th:if="${dummyService != null}">
+    <p>Yes: <span th:text="${dummyService.getMessage()}"></span></p>
+</div>
+
+<p><a href="static.txt">A static file.</a></p>
+
+<p><a href="metrics">Yammer Metrics</a></p>
+
+<p><a href="admin">Admin (admin/password)</a></p>
+
+</body>
+</html>
