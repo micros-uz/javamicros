@@ -4,18 +4,17 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 
 public class JAction extends AbstractAction {
+    private final CommandPerformer cmdHandler;
+    private final JCommands command;
 
-    private final CommandHandler cmdHandler;
+    public JAction(JCommands cmd, Icon icon, CommandPerformer handler) {
+        super(cmd.toString(), icon);
 
-    public JAction(Commands cmd, CommandHandler handler) {
-        super(cmd.toString());
-        putValue("cmd", cmd);
+        command = cmd;
         cmdHandler = handler;
     }
 
-    @Override
     public void actionPerformed(ActionEvent e) {
-
-        cmdHandler.handle((Commands)getValue("cmd"));
+        cmdHandler.handle(command);
     }
 }
