@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+	xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3"
+	layout:decorator="layout.html">
+<head>
+</head>
+<body>
+<div layout:fragment="body">
+<div class="page-header">
+    <h1 th:text="#{label.homepage.title}+' ' +${#authentication.principal.firstName}+' '+${#authentication.principal.lastName}"></h1>
+</div>
+<div>
+    <p th:text="#{text.homepage.greeting}">If you can see this page, you have been successfully logged in.</p>
+</div>
+</div>
+</body>
+</html>

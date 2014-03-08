@@ -1,0 +1,40 @@
+<div class="container large-space-on-top">
+	<div id="midCol" class="row well well-large">
+	<h2 class="medium-space-underneath">Sign Up</h2>
+	
+		<div th:if="${message}" class="alert alert-info" th:text="${message.text}">Info Plx</div>
+		
+		<form id="signup" th:action="@{/signup}" method="post" th:object="${signupForm}">
+			<div class="alert alert-error" th:if="${#fields.hasErrors('*')}">
+				<ul class="unstyled" >
+				  <li th:each="err : ${#fields.errors('*')}" th:text="${err}">Input is incorrect</li>
+				</ul>
+			</div>
+			
+			
+			<fieldset class="medium-space-underneath">
+				<div  th:class="${#fields.hasErrors('firstName')}? 'control-group error'">
+					<label for="firstName" >First Name</label>
+					<input type="text" th:field="*{firstName}"/>
+				</div>
+				
+				<div  th:class="${#fields.hasErrors('lastName')}? 'control-group error'">
+					<label for="lastName" >Last Name</label>
+					<input type="text" th:field="*{lastName}" th:class="${#fields.hasErrors('lastName')}? 'error'"/>	
+				</div>
+				
+				<div  th:class="${#fields.hasErrors('username')}? 'control-group error'">
+					<label for="username">Username</label>
+					<input type="text" th:field="*{username}" th:class="${#fields.hasErrors('username')}? 'error'"/>	
+				</div>
+				
+				<div  th:class="${#fields.hasErrors('password')}? 'control-group error'">
+					<label for="password" >Password</label>
+					<input type="password" th:field="*{password}" th:class="${#fields.hasErrors('password')}? 'error'"/>
+				</div>
+				
+			</fieldset>
+			<p><button type="submit" class="btn btn-primary">Sign Up</button></p>
+		</form>
+	</div>
+</div>
