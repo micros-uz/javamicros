@@ -4,3 +4,4 @@ http://skipy.ru/technics/gui_int.html
 www.youtube.com/watch?v=oSQ2m4q8DKY‎
 
 
+http://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
