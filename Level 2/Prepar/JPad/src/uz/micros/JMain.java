@@ -51,11 +51,30 @@ public class JMain extends JFrame implements CommandPerformer {
             @Override
             public void fileChanged(String path, long size) {
                 setTitle(APP_NAME + " - " + path);
-                setLeftLabel(size + " bytes");
+                //setLeftLabel(size + " bytes");
             }
         });
 
         jvm = new Jvm();
+        jvm.addListener(new JvmListener() {
+            @Override
+            public void sendEvent(JvmEvent type, String data) {
+                switch(type){
+                    case Ok:
+                        addText("Done");
+                        break;
+                    case Error:
+                        addText(data);
+                        break;
+                }
+            }
+        });
+    }
+
+    private void addText(String st) {
+        String text = outputPane.getText();
+
+        outputPane.setText(text + "\n\r" + st);
     }
 
     private void setLeftLabel(String s) {
