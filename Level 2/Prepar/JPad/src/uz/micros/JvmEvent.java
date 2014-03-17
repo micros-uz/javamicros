@@ -1,6 +1,8 @@
 package uz.micros;
 
 public enum JvmEvent {
-    Error,
-    Ok
+    Start,
+    End,
+    EndRun,
+    Error
 }

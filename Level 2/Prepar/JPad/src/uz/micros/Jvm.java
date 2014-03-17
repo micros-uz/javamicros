@@ -1,40 +1,70 @@
 package uz.micros;
 
+import javax.print.DocFlavor;
 import java.io.*;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 public class Jvm {
-    JvmListener listener;
+    private JvmListener listener;
 
     public void compile(File file) {
         if (file.exists())
+        {
             compileFile(file.getPath());
+        }
     }
 
-    public void run() {
-
-    }
-
-    private void compileFile(String filePath){
+    private void compileFile(String path) {
+        ProcessBuilder pb = new ProcessBuilder("C:\\Program Files\\Java\\jdk1.7.0_45\\bin\\javac", path);
+        pb.redirectErrorStream(true);
         try {
-            ProcessBuilder pb = new ProcessBuilder("c:\\Program Files\\Java\\jdk1.7.0_45\\bin\\javac.exe", filePath);
-            pb.redirectErrorStream(true);
+            listener.send(JvmEvent.Start, getTime());
             Process p = pb.start();
 
-            BufferedReader in = new BufferedReader(
-                    new InputStreamReader(p.getInputStream()));
+            InputStream stream = p.getInputStream();
+            InputStreamReader reader = new InputStreamReader(stream);
+            BufferedReader bufferedReader = new BufferedReader(reader);
 
             String line = null;
-            while ((line = in.readLine()) != null) {
-                listener.sendEvent(JvmEvent.Error, line);
+            while((line = bufferedReader.readLine()) != null){
+                listener.send(JvmEvent.Error, line);
             }
 
-            listener.sendEvent(JvmEvent.Ok, null);
+            listener.send(JvmEvent.End, getTime());
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
 
-    public void addListener(JvmListener listener) {
-        this.listener = listener;
+    public void run(File file) {
+        String path = file.getPath().replaceAll(".java", ".class");
+        ProcessBuilder pb = new ProcessBuilder("C:\\Program Files\\Java\\jdk1.7.0_45\\bin\\java", path);
+        pb.redirectErrorStream(true);
+        try {
+            Process p = pb.start();
+
+            InputStream stream = p.getInputStream();
+            InputStreamReader reader = new InputStreamReader(stream);
+            BufferedReader bufferedReader = new BufferedReader(reader);
+
+            String line = null;
+            while((line = bufferedReader.readLine()) != null){
+                listener.send(JvmEvent.Error, line);
+            }
+
+            listener.send(JvmEvent.EndRun, getTime());
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void addListener(JvmListener jvmListener) {
+        listener = jvmListener;
+    }
+
+    private String getTime(){
+        return new SimpleDateFormat("HH:mm:ss.S")
+                .format(new Date());
     }
 }

@@ -36,9 +36,6 @@ public class JMain extends JFrame implements CommandPerformer {
     private FileSystemView fileSystemView;
     private DefaultTreeModel treeModel;
     private FileSystemModel fileSystemModel;
-    private JTextArea outPane;
-    private JTextArea inPane;
-    private JTabbedPane tabbedPane;
 
     public JMain() {
         setSize(800, 500);
@@ -50,7 +47,6 @@ public class JMain extends JFrame implements CommandPerformer {
         createToolBar();
         createTextArea();
         createTree();
-        createOutPane();
         createSplit();
 
         editor = new Editor(textArea, this);
@@ -62,63 +58,19 @@ public class JMain extends JFrame implements CommandPerformer {
         });
 
         jvm = new Jvm();
-        jvm.addListener(new JvmListener() {
-            @Override
-            public void send(JvmEvent event, String data) {
-                switch (event){
-                    case Start:
-                        outPane.setText("");
-                        addText("Compilation started at " + data);
-                        break;
-                    case Error:
-                        addText(data);
-                        break;
-                    case End:
-                        addText("Compilation ended at " + data);
-                        break;
-                    case EndRun:
-                        addText("Process finished");
-                        break;
-                }
-            }
-
-            private void addText(String data) {
-                String text = outPane.getText();
-                outPane.setText(text + "\r\n" + data);
-            }
-        });
 
         setTitle(APP_NAME);
     }
 
-    private void createOutPane() {
-        outPane = new JTextArea();
-        //outPane.setEditable(false);
-        //outPane.setBackground(new Color(218, 214, 211));
-        inPane = new JTextArea();
-
-        tabbedPane = new JTabbedPane();
-        tabbedPane.addTab("Output", new JScrollPane(outPane));
-        tabbedPane.addTab("Input", new JScrollPane(inPane));
-    }
-
     private void createSplit() {
-
         JScrollPane scrollTree = new JScrollPane(tree);
         JScrollPane scrollText = new JScrollPane(textArea);
-        //JScrollPane scrollOut = new JScrollPane(outPane);
 
         JSplitPane split = new JSplitPane(JSplitPane.HORIZONTAL_SPLIT,
                 scrollTree, scrollText);
 
         split.setDividerLocation(150);
-
-        JSplitPane mainSplit = new JSplitPane(JSplitPane.VERTICAL_SPLIT,
-                split, tabbedPane);
-
-        mainSplit.setDividerLocation(300);
-
-        getContentPane().add(mainSplit, BorderLayout.CENTER);
+        getContentPane().add(split, BorderLayout.CENTER);
     }
 
     private void createTree() {
@@ -278,7 +230,7 @@ public class JMain extends JFrame implements CommandPerformer {
                     JOptionPane.showMessageDialog(this, "This is not a valid Java file", APP_NAME, JOptionPane.ERROR_MESSAGE);
                 break;
             case Run:
-                jvm.run(editor.getFile());
+                jvm.run();
                 break;
         }
     }

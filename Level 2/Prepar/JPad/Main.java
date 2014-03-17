@@ -1,7 +1,12 @@
-kkpublic class Main {
+import java.util.*;
 
-    public static void main(String[] args) {
+public class Main {
 
+    public static void main(String[] args) throws Exception {
+        Scanner console = new Scanner(System.in);
+        System.out.println("hello World");
+        while(console.hasNextLine()) {
+            System.out.println(console.nextLine());
+        }
     }
 }
-ww
