@@ -1,0 +1,1 @@
+mvn archetype:generate -DgroupId=uz.micros.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
