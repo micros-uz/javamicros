@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.*;cvbcvbcvbcvb
 
 public class Main {
 
@@ -7,6 +7,6 @@ public class Main {
         System.out.println("hello World");
         while(console.hasNextLine()) {
             System.out.println(console.nextLine());
-        }
+        } 
     }
 }

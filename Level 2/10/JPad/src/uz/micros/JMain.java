@@ -43,7 +43,7 @@ public class JMain extends JFrame implements CommandPerformer {
     public JMain() {
         setSize(800, 500);
         setLocationRelativeTo(null);
-        setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(WindowConstants.DO_NOTHING_ON_CLOSE);
 
         createActions();
         createMenu();
@@ -89,12 +89,20 @@ public class JMain extends JFrame implements CommandPerformer {
         });
 
         setTitle(APP_NAME);
+
+        addWindowListener(new WindowAdapter() {
+            @Override
+            public void windowClosing(WindowEvent e) {
+                if (editor.canClose())
+                    dispose();
+            }
+        });
     }
 
     private void createOutPane() {
         outPane = new JTextArea();
-        //outPane.setEditable(false);
-        //outPane.setBackground(new Color(218, 214, 211));
+        outPane.setEditable(false);
+
         inPane = new JTextArea();
 
         tabbedPane = new JTabbedPane();
@@ -106,7 +114,6 @@ public class JMain extends JFrame implements CommandPerformer {
 
         JScrollPane scrollTree = new JScrollPane(tree);
         JScrollPane scrollText = new JScrollPane(textArea);
-        //JScrollPane scrollOut = new JScrollPane(outPane);
 
         JSplitPane split = new JSplitPane(JSplitPane.HORIZONTAL_SPLIT,
                 scrollTree, scrollText);

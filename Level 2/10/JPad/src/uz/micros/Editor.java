@@ -8,6 +8,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.awt.*;
 import java.io.*;
+import javax.swing.event.DocumentEvent;
+import javax.swing.event.DocumentListener;
 import javax.swing.filechooser.*;
 import javax.swing.filechooser.FileFilter;
 
@@ -21,11 +23,35 @@ public class Editor {
     private final JTextArea textArea;
     private final Component parent;
     private File curFile;
+    private boolean modified;
+
     private List<FileChangedListener> listeners;
 
     public Editor(JTextArea ta, Component comp) {
-        textArea = ta;
         parent = comp;
+
+        textArea = ta;
+
+        addDocListener();
+    }
+
+    private void addDocListener() {
+        textArea.getDocument().addDocumentListener(new DocumentListener() {
+            @Override
+            public void insertUpdate(DocumentEvent e) {
+                modified = true;
+            }
+
+            @Override
+            public void removeUpdate(DocumentEvent e) {
+                modified = true;
+            }
+
+            @Override
+            public void changedUpdate(DocumentEvent e) {
+                modified = true;
+            }
+        });
     }
 
     public void open(String file) {
@@ -49,6 +75,8 @@ public class Editor {
             textArea.read(reader, null);
             reader.close();
 
+            addDocListener();
+
             notifyFileChanged();
 
         } catch (FileNotFoundException e) {
@@ -69,6 +97,7 @@ public class Editor {
                 FileWriter writer = new FileWriter(curFile);
                 textArea.write(writer);
                 writer.close();
+                modified = false;
             } catch (IOException e) {
                 JOptionPane.showMessageDialog(parent, "Couldn't write file " +
                         e.getMessage());
@@ -142,5 +171,33 @@ public class Editor {
 
     public boolean hasJavaFile() {
         return curFile != null && curFile.getName().endsWith(JAVA_EXT);
+    }
+
+    public boolean canClose() {
+        boolean res = curFile == null
+                && textArea.getText().length() == 0
+                || !modified;
+
+        if (res) return true;
+
+        int n = JOptionPane.showConfirmDialog(parent,
+                "Do you want to save changes?", "JPad",
+                JOptionPane.YES_NO_CANCEL_OPTION,
+                JOptionPane.QUESTION_MESSAGE);
+
+        switch (n) {
+            case JOptionPane.YES_OPTION:
+                save();
+                res = true;
+                break;
+            case JOptionPane.NO_OPTION:
+                res = true;
+                break;
+            case JOptionPane.CANCEL_OPTION:
+                res = false;
+                break;
+        }
+
+        return res;
     }
 }
