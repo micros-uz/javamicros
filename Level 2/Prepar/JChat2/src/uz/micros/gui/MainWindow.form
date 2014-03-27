@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="uz.micros.gui.MainWindow">
+  <grid id="27dc6" binding="rootPanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="608" height="553"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <splitpane id="f48ea">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="200"/>
+          </grid>
+        </constraints>
+        <properties>
+          <dividerLocation value="450"/>
+          <orientation value="0"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="3e7bf" class="javax.swing.JTextPane" binding="messageTextPane">
+            <constraints>
+              <splitpane position="right"/>
+            </constraints>
+            <properties>
+              <font name="Calibri" size="18" style="1"/>
+            </properties>
+          </component>
+          <splitpane id="22a50">
+            <constraints>
+              <splitpane position="left"/>
+            </constraints>
+            <properties>
+              <dividerLocation value="450"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <tabbedpane id="7f84" binding="mainTabPane">
+                <constraints>
+                  <splitpane position="left"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <scrollpane id="73224">
+                    <constraints>
+                      <tabbedpane title="Main"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="6aef6" class="javax.swing.JTextPane" binding="mainTabTextPane">
+                        <constraints/>
+                        <properties>
+                          <editable value="false"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </scrollpane>
+                </children>
+              </tabbedpane>
+              <scrollpane id="1e0a6">
+                <constraints>
+                  <splitpane position="right"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="e4459" class="javax.swing.JList" binding="contactsList">
+                    <constraints/>
+                    <properties>
+                      <model>
+                        <item value="Hasan"/>
+                        <item value="Azim"/>
+                        <item value="Abduvoris"/>
+                        <item value="Davron"/>
+                      </model>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+            </children>
+          </splitpane>
+        </children>
+      </splitpane>
+    </children>
+  </grid>
+</form>
