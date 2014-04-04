@@ -1,2 +1,4 @@
 http://spring.io/blog/2011/01/04/green-beans-getting-started-with-spring-mvc/
 http://www.tutorialspoint.com/maven/maven_creating_project.htm
+
+https://github.com/olivergierke/repositories-deepdive
