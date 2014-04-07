@@ -3,7 +3,7 @@ package uz.micros.network;
 public class ClientEvent {
     private ClientEventType type;
     private String data;
-    private String name;
+    private Client client;
 
     public ClientEventType getType() {
         return type;
@@ -21,11 +21,11 @@ public class ClientEvent {
         this.data = data;
     }
 
-    public String getName() {
-        return name;
+    public Client getClient() {
+        return client;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setClient(Client client) {
+        this.client = client;
     }
 }

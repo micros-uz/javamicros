@@ -12,16 +12,18 @@ import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 
 public class MainWindow extends JFrame {
-    private final String hostUserName;
+    private final GuiEventSink sink;
     private JPanel rootPanel;
     private JTextPane messageTextPane;
     private JTabbedPane mainTabPane;
     private JList contactsList;
     private JTextPane mainTabTextPane;
     private DefaultListModel contacts;
+    private final String hostUserName;
 
-    public MainWindow(String userName) {
+    public MainWindow(String userName, GuiEventSink sink) {
         hostUserName = userName;
+        this.sink = sink;
         setContentPane(rootPanel);
         setSize(650, 600);
         setLocationRelativeTo(null);
@@ -63,14 +65,22 @@ public class MainWindow extends JFrame {
 
     private void sendText() {
         String text = messageTextPane.getText();
-        messageTextPane.setText("");
 
-        JTextPane textPane = getActiveTextTab();
+        if (text.length() > 0) {
+            messageTextPane.setText("");
 
-        sendTextToTab(text, textPane, hostUserName);
+            JTextPane textPane = getActiveTextTab();
+
+            setTabText(text, textPane, hostUserName);
+
+            int n = mainTabPane.getSelectedIndex();
+            String title = null;
+            if (n > 0) title = mainTabPane.getTitleAt(n);
+            sink.guiEvent(text, title);
+        }
     }
 
-    private void sendTextToTab(String text, JTextPane textPane, String userName) {
+    private void setTabText(String text, JTextPane textPane, String userName) {
         StyledDocument doc = textPane.getStyledDocument();
         SimpleAttributeSet attr = new SimpleAttributeSet();
 
@@ -88,10 +98,10 @@ public class MainWindow extends JFrame {
     private JTextPane getActiveTextTab() {
         int n = mainTabPane.getSelectedIndex();
 
-        return getTextTab(n);
+        return getTextPane(n);
     }
 
-    private JTextPane getTextTab(int n) {
+    private JTextPane getTextPane(int n) {
         JScrollPane scrollPane = (JScrollPane) mainTabPane.getComponentAt(n);
 
         return (JTextPane) scrollPane.getViewport().getComponent(0);
@@ -121,7 +131,7 @@ public class MainWindow extends JFrame {
         messageTextPane.requestFocus();
     }
 
-    private int findTab(String title){
+    private int findTab(String title) {
         return mainTabPane.indexOfTab(title);
     }
 
@@ -141,10 +151,10 @@ public class MainWindow extends JFrame {
     public void newMessage(String msg, String userName) {
         int n = findTab(userName);
 
-        if (n > 0){
-            JTextPane textPane = getTextTab(n);
+        if (n > -1) {
+            JTextPane textPane = getTextPane(n);
 
-            sendTextToTab(msg, textPane, userName);
+            setTabText(msg, textPane, userName);
         }
     }
 
@@ -152,6 +162,7 @@ public class MainWindow extends JFrame {
         contacts.removeElement(userName);
 
         int n = findTab(userName);
+
         removeTab(n);
     }
 }

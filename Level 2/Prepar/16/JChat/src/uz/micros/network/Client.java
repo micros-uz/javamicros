@@ -19,11 +19,19 @@ public class Client implements Runnable {
         this.sink = sink;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public void send(String msg){
+        out.println(msg);
+    }
+
     private void notifyEvent(ClientEventType type, String data){
         ClientEvent clientEvent = new ClientEvent();
         clientEvent.setType(type);
         clientEvent.setData(data);
-        clientEvent.setName(name);
+        clientEvent.setClient(this);
 
         sink.notifyEvent(clientEvent);
     }
@@ -39,9 +47,12 @@ public class Client implements Runnable {
     private void listen() {
         String msg;
         try {
-            while ((msg = in.readLine()) != null) {
+            msg = in.readLine();
+            while (msg != null) {
                 notifyEvent(ClientEventType.Message, msg);
+                msg = in.readLine();
             }
+            notifyEvent(ClientEventType.Disconnect, null);
         } catch (IOException e) {
             notifyEvent(ClientEventType.Disconnect, null);
         }
