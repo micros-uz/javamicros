@@ -13,6 +13,7 @@ public class Client implements Runnable {
     private BufferedReader in;
     private PrintWriter out;
     private String name;
+    private boolean disableNotify;
 
     public Client(Socket sock, ClientSink sink) {
         socket = sock;
@@ -23,17 +24,16 @@ public class Client implements Runnable {
         return name;
     }
 
-    public void send(String msg){
-        out.println(msg);
-    }
-
     private void notifyEvent(ClientEventType type, String data){
-        ClientEvent clientEvent = new ClientEvent();
-        clientEvent.setType(type);
-        clientEvent.setData(data);
-        clientEvent.setClient(this);
 
-        sink.notifyEvent(clientEvent);
+        if (!disableNotify){
+            ClientEvent clientEvent = new ClientEvent();
+            clientEvent.setType(type);
+            clientEvent.setData(data);
+            clientEvent.setClient(this);
+
+            sink.notifyEvent(clientEvent);
+        }
     }
 
     @Override
@@ -66,6 +66,7 @@ public class Client implements Runnable {
             out = new PrintWriter(socket.getOutputStream(), true);
 
             name = in.readLine();
+            out.println(sink.getHostName());
             System.out.println("Name: " + name);
 
             notifyEvent(ClientEventType.Login, name);
@@ -73,5 +74,20 @@ public class Client implements Runnable {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    public void send(String msg) {
+        out.println(msg);
+    }
+
+    public void destroy() {
+        disableNotify = true;
+
+        try {
+            in.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        Thread.currentThread().interrupt();
     }
 }

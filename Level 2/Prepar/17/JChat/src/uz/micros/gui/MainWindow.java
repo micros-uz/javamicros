@@ -1,5 +1,8 @@
 package uz.micros.gui;
 
+import com.sun.javafx.image.BytePixelSetter;
+import uz.micros.core.ChatManager;
+
 import javax.swing.*;
 import javax.swing.text.BadLocationException;
 import javax.swing.text.SimpleAttributeSet;
@@ -76,6 +79,7 @@ public class MainWindow extends JFrame {
             int n = mainTabPane.getSelectedIndex();
             String title = null;
             if (n > 0) title = mainTabPane.getTitleAt(n);
+
             sink.guiEvent(text, title);
         }
     }
