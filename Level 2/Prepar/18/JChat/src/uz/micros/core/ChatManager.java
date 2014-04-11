@@ -34,7 +34,7 @@ public class ChatManager
         try {
             byte[] local = InetAddress.getLocalHost().getAddress();
 
-            for (int k = local[3] + 257; k <= 150; k++){
+            for (int k = (local[3] & 0xFF) + 1; k <= 150; k++){
                 InetAddress ia = getAddr(local, k);
                 Connector conn = new Connector(ia, serverPort, this);
                 System.out.println(k);

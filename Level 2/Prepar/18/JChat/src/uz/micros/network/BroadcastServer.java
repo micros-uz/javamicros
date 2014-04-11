@@ -1,25 +1,23 @@
 package uz.micros.network;
 
 import java.io.IOException;
-import java.net.DatagramPacket;
-import java.net.DatagramSocket;
-import java.net.InetAddress;
-import java.net.SocketException;
+import java.net.*;
 
 public class BroadcastServer {
     private void waitForNewChats() {
         try {
-            DatagramSocket serverSocket = new DatagramSocket(65531);
+            MulticastSocket socket = new MulticastSocket(65531);
+//            socket.joinGroup();
             byte[] receiveData = new byte[1024];
 
             System.out.println("Broadcast Server Started");
 
             while (true) {
-                DatagramPacket receivePacket = new DatagramPacket(receiveData, receiveData.length);
-                serverSocket.receive(receivePacket);
-                String sentence = new String(receivePacket.getData());
-                InetAddress addr = receivePacket.getAddress();
-                int port = receivePacket.getPort();
+                DatagramPacket packet = new DatagramPacket(receiveData, receiveData.length);
+                socket.receive(packet);
+                String sentence = new String(packet.getData());
+                InetAddress addr = packet.getAddress();
+                int port = packet.getPort();
 
                 System.out.println("RECEIVED: " + sentence + " from " +
                         addr.getHostAddress() + ":" + port);

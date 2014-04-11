@@ -11,11 +11,11 @@ public class Broadcaster {
         byte[] data = new byte[1024];
 
         data = msg.getBytes();
-        DatagramPacket sendPacket = new DatagramPacket(data, data.length, addr, port);
+        DatagramPacket packet = new DatagramPacket(data, data.length, addr, port);
 
         try {
-            DatagramSocket serverSocket = new DatagramSocket(65531);
-            serverSocket.send(sendPacket);
+            DatagramSocket socket = new DatagramSocket();
+            socket.send(packet);
         } catch (IOException e) {
             e.printStackTrace();
         }
