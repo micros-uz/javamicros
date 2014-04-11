@@ -24,7 +24,7 @@ public class ChatManager
     public void start() {
         mainWindow = new MainWindow(hostUserName, this);
 
-        new BroadcastServer().start();
+        new BroadcastServer(this).start();
 
         startConnectors();
         new Server(serverPort, this).start();
@@ -36,9 +36,9 @@ public class ChatManager
 
             for (int k = (local[3] & 0xFF) + 1; k <= 150; k++){
                 InetAddress ia = getAddr(local, k);
-                Connector conn = new Connector(ia, serverPort, this);
+/*                Connector conn = new Connector(ia, serverPort, this);
                 System.out.println(k);
-                new Thread(conn).start();
+                new Thread(conn).start();*/
 
                 new Broadcaster().send("Hello", ia, 65531);
             }
@@ -139,5 +139,10 @@ public class ChatManager
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    @Override
+    public void connected(String msg, InetAddress addr, int port) {
+        System.out.println("Chat: " + addr.getHostAddress() + ":" + port);
     }
 }

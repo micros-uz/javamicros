@@ -4,6 +4,13 @@ import java.io.IOException;
 import java.net.*;
 
 public class BroadcastServer {
+
+    private final ConnectorSink sink;
+
+    public BroadcastServer(ConnectorSink sink) {
+        this.sink = sink;
+    }
+
     private void waitForNewChats() {
         try {
             MulticastSocket socket = new MulticastSocket(65531);
@@ -15,12 +22,11 @@ public class BroadcastServer {
             while (true) {
                 DatagramPacket packet = new DatagramPacket(receiveData, receiveData.length);
                 socket.receive(packet);
-                String sentence = new String(packet.getData());
+                String msg = new String(packet.getData(), 0, packet.getLength());
                 InetAddress addr = packet.getAddress();
                 int port = packet.getPort();
 
-                System.out.println("RECEIVED: " + sentence + " from " +
-                        addr.getHostAddress() + ":" + port);
+                sink.connected(msg, addr, port);
             }
         } catch (SocketException e) {
             e.printStackTrace();
