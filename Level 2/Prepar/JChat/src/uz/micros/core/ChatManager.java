@@ -5,7 +5,6 @@ import uz.micros.gui.MainWindow;
 import uz.micros.network.*;
 
 import java.io.IOException;
-import java.io.PrintWriter;
 import java.net.InetAddress;
 import java.net.Socket;
 import java.net.UnknownHostException;
@@ -35,7 +34,7 @@ public class ChatManager
         try {
             byte[] local = InetAddress.getLocalHost().getAddress();
 
-            for (int k = 140; k <= 150; k++){
+            for (int k = 100; k <= 110; k++){
                 InetAddress ia = getAddr(local, k);
 
                 new Broadcaster().send(hostUserName, ia, broadcastPort);
@@ -61,7 +60,7 @@ public class ChatManager
 
     @Override
     public void newConnection(Socket sock) {
-        Client client = new Client(sock, this);
+        Client client = new Client(sock, this, false);
 
         Thread thread = new Thread(client);
 
@@ -135,9 +134,7 @@ public class ChatManager
         try {
             Socket socket = new Socket(addr, serverPort);
 
-            PrintWriter out = new PrintWriter(socket.getOutputStream(), true);
-            out.println(hostUserName);
-            Client client = new Client(socket, this);
+            Client client = new Client(socket, this, true);
             client.run();
         } catch (IOException e) {
             e.printStackTrace();

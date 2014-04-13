@@ -10,14 +10,16 @@ public class Client implements Runnable {
 
     private final Socket socket;
     private final ClientSink sink;
+    private final boolean active;
     private BufferedReader in;
     private PrintWriter out;
     private String name;
     private boolean disableNotify;
 
-    public Client(Socket sock, ClientSink sink) {
+    public Client(Socket sock, ClientSink sink, boolean active) {
         socket = sock;
         this.sink = sink;
+        this.active = active;
     }
 
     public String getName() {
@@ -65,8 +67,13 @@ public class Client implements Runnable {
 
             out = new PrintWriter(socket.getOutputStream(), true);
 
-            name = in.readLine();
-            out.println(sink.getHostName());
+            if (active){
+                out.println(sink.getHostName());
+                name = in.readLine();
+            }else{
+                name = in.readLine();
+                out.println(sink.getHostName());
+            }
 
             System.out.println("Name: " + name);
 

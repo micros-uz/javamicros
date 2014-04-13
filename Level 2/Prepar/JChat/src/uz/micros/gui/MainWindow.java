@@ -1,9 +1,8 @@
 package uz.micros.gui;
 
-import com.sun.javafx.image.BytePixelSetter;
-import uz.micros.core.ChatManager;
-
 import javax.swing.*;
+import javax.swing.event.ChangeEvent;
+import javax.swing.event.ChangeListener;
 import javax.swing.text.BadLocationException;
 import javax.swing.text.SimpleAttributeSet;
 import javax.swing.text.StyleConstants;
@@ -23,6 +22,7 @@ public class MainWindow extends JFrame {
     private JTextPane mainTabTextPane;
     private DefaultListModel contacts;
     private final String hostUserName;
+    private final JTabBlinker tabBlinker;
 
     public MainWindow(String userName, GuiEventSink sink) {
         hostUserName = userName;
@@ -45,10 +45,20 @@ public class MainWindow extends JFrame {
         mainTabPane.addMouseListener(new MouseAdapter() {
             @Override
             public void mousePressed(MouseEvent e) {
-                if (e.getClickCount() == 2)
+                if (e.getClickCount() == 2) {
                     closeTab();
+                    new JTabBlinker(mainTabPane).blink(0);
+                }
             }
         });
+
+        mainTabPane.addChangeListener(new ChangeListener() {
+            @Override
+            public void stateChanged(ChangeEvent e) {
+                tabBlinker.stop(getSelTabIndex());
+            }
+        });
+
         messageTextPane.addKeyListener(new KeyAdapter() {
             @Override
             public void keyPressed(KeyEvent e) {
@@ -64,6 +74,11 @@ public class MainWindow extends JFrame {
         contacts = new DefaultListModel<String>();
 
         contactsList.setModel(contacts);
+        tabBlinker = new JTabBlinker(mainTabPane);
+    }
+
+    private int getSelTabIndex() {
+        return mainTabPane.getSelectedIndex();
     }
 
     private void sendText() {
@@ -76,7 +91,7 @@ public class MainWindow extends JFrame {
 
             setTabText(text, textPane, hostUserName);
 
-            int n = mainTabPane.getSelectedIndex();
+            int n = getSelTabIndex();
             String title = null;
             if (n > 0) title = mainTabPane.getTitleAt(n);
 
@@ -100,9 +115,7 @@ public class MainWindow extends JFrame {
     }
 
     private JTextPane getActiveTextTab() {
-        int n = mainTabPane.getSelectedIndex();
-
-        return getTextPane(n);
+        return getTextPane(getSelTabIndex());
     }
 
     private JTextPane getTextPane(int n) {
@@ -112,9 +125,7 @@ public class MainWindow extends JFrame {
     }
 
     private void closeTab() {
-        int n = mainTabPane.getSelectedIndex();
-
-        removeTab(n);
+        removeTab(getSelTabIndex());
     }
 
     private void removeTab(int n) {
@@ -159,6 +170,9 @@ public class MainWindow extends JFrame {
             JTextPane textPane = getTextPane(n);
 
             setTabText(msg, textPane, userName);
+
+            if (n != getSelTabIndex())
+                tabBlinker.blink(n);
         }
     }
 
