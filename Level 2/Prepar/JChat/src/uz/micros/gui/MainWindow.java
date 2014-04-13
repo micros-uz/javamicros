@@ -93,7 +93,12 @@ public class MainWindow extends JFrame {
 
             int n = getSelTabIndex();
             String title = null;
-            if (n > 0) title = mainTabPane.getTitleAt(n);
+            if (n > 0) {
+                title = mainTabPane.getTitleAt(n);
+                text = "0:" + text;
+            } else {
+                text = "1:" + text;
+            }
 
             sink.guiEvent(text, title);
         }
@@ -164,12 +169,12 @@ public class MainWindow extends JFrame {
     }
 
     public void newMessage(String msg, String userName) {
-        int n = findTab(userName);
+        int n = (msg.startsWith("0:")) ? 0 : findTab(userName);
 
         if (n > -1) {
             JTextPane textPane = getTextPane(n);
 
-            setTabText(msg, textPane, userName);
+            setTabText(msg.substring(2, msg.length()), textPane, userName);
 
             if (n != getSelTabIndex())
                 tabBlinker.blink(n);

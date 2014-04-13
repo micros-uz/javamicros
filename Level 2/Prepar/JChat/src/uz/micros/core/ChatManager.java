@@ -16,7 +16,7 @@ import java.util.List;
 public class ChatManager
         implements ServerSink, ClientSink, GuiEventSink, ConnectorSink {
     private MainWindow mainWindow;
-    private String hostUserName = "Ustoz";//"先生";
+    private String hostUserName = "Ustoz2";//"先生";
     private List<Client> clients = new ArrayList<Client>();
     private int serverPort = 65530;
     private int broadcastPort = 65531;
