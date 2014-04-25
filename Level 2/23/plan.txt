@@ -1,0 +1,7 @@
+1) register in github
+2) create repo
+3) clone it to local machine
+4) add a new file
+5) commit and push
+6) edit locally
+7) commit and push
