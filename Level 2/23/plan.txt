@@ -5,3 +5,10 @@
 5) commit and push
 6) edit locally
 7) commit and push
+
+
+Info about GIT
+
+1) http://habrahabr.ru/post/174467/
+2) http://git-scm.com/book/ru
+3) http://marklodato.github.io/visual-git-guide/index-ru.html
