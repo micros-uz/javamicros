@@ -1,0 +1,7 @@
+1) Add simple Spring configuration
+2) Add simple Spring Controller
+3) Display Hello World 
+
+@ResponseBody
+@RequestMapping
+@Controller

@@ -1,0 +1,7 @@
+1) Add jetty and tomcat7 plugins
+2) Have 4 deploy and run ways (2 in IDEA - standalone jetty and tomcat8 and 2 with plugins)
+3) Show what is the disadvantage of servlet programming and how we may resolve it
+4) Spring Framewrok - first look
+
+
+http://what-when-how.com/Tutorial/SpringFramework3/SpringFramework300590.html

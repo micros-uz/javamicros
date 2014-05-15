@@ -1,0 +1,7 @@
+1) Create JSP view engine configuration
+2) Add simple JSP page
+3) Create Thymeleaf view engine configuration
+4) Add simple Thymeleaf page
+
+http://www.tutorialspoint.com/jsp/
+http://www.thymeleaf.org/
