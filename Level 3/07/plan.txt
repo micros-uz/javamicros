@@ -1,0 +1,16 @@
+1) For layot(master pages) support add thymeleaf layout dialoct dependency
+2) Create master.html, move CSS and JS links
+3) Create an area in master where custom view will be placed
+4) prepare Home.html to be a fragment
+5) add templateEngine.addDialect(new LayoutDialect()) to the ViewConfig
+
+COMMIT 1cada46e855be3a91a149f2aa799c1d12174c259
+
+6) Add Main menu to teh master
+7) Add 3 folders blog, forum and store to controllers.
+8) Add them to pages and to entity also
+9) Create Blog controller with one action
+10) Create Blog Index page 
+11) Create Blog Entity
+
+COMMIT 12bb9b0e35b039920884871fee832220bb0fb024
