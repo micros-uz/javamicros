@@ -1,1 +1,3 @@
 http://www.petrikainulainen.net/programming/spring-framework/adding-social-sign-in-to-a-spring-mvc-web-application-configuration/
+
+http://www.javacodegeeks.com/2014/04/csrf-protection-in-spring-mvc-thymeleaf-spring-security-application.html

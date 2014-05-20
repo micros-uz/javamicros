@@ -1,0 +1,21 @@
+
+1) create resources dir, add site.css, add simple class with back color
+2) link this file with HTML page and look at it in the browser
+3) create js/site.js file with alert('Hi') and link it with the page
+4) reload page to see how it works
+
+Why HTML, CSS and JS? The original idea was to divide markup, appearance and behaviour.
+
+5) As a CSS framewrok we will use bootstrap - http://getbootstrap.com/
+6) Download it and link to the page
+7) It requires jquery - download it too and add it and BootStrap javascript to the page
+8) start it - the appearance has changed
+9) We need to place everything to the container DIV
+
+COMMIT - 5c85899ee59a2bde8fb37b7494a5bf05d5888997
+
+10) There are several ways to manage with WEB dependencies
+
+We will use another way to manage  - webjars
+
+11) Add webjars resource handlers

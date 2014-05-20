@@ -1,0 +1,4 @@
+1) ModelAndView instead of String
+2) Bind simple string .addObject("name", "John")
+3) Bind object person .addObject("person", person)
+4) Bind object collection (th:each)
