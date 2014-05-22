@@ -14,3 +14,7 @@ COMMIT 1cada46e855be3a91a149f2aa799c1d12174c259
 11) Create Blog Entity
 
 COMMIT 12bb9b0e35b039920884871fee832220bb0fb024
+
+12) Create Entities - Post and Comment
+
+COMMIT
