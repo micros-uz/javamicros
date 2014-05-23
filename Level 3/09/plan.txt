@@ -1,0 +1,10 @@
+1) Create console app - Java HTML Temlate Engine - jHTE
+2) Class Renderer creates Reader and Parser. Main class creates Renderer and render "home" view. Renderer returns <h2>Hello</h2>
+3) BAD - Renderer has high coupling with Reader and Parser. If they require constructor parameters, Renderer need to know about it.
+
+4) IoC - Instead of creating them itself Renderer will require them in the constructor;
+5) Now we should provide all dependencies when we create Renderer.
+6) We may use IoC container
+7) Add Spring dependencies and context
+8) Refactor with autowired
+
