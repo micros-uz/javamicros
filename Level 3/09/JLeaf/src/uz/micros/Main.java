@@ -9,13 +9,13 @@ public class Main {
 
         ApplicationContext ctx = new AnnotationConfigApplicationContext(AppConfig.class);
 
-        //Renderer renderer = new Renderer(new Reader(), new Parser());
+        //Renderer renderer = IoC.Get(Renderer.class);
+        Renderer renderer = new Renderer(/*new Reader(), new Parser(new X())*/);
 
-        Renderer renderer = (Renderer)ctx.getBean(Renderer.class);
+        renderer = (Renderer)ctx.getBean("renDerer");
 
         String html = renderer.Render("home");
 
-        Object rr = ctx.getBean(Parser.class);
         System.out.println(html);
     }
 }
