@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/JHTE.iml" filepath="$PROJECT_DIR$/JHTE.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JLeaf.iml" filepath="$PROJECT_DIR$/JLeaf.iml" />
     </modules>
   </component>
 </project>

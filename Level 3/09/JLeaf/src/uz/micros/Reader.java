@@ -1,14 +1,11 @@
 package uz.micros;
 
-import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Controller;
 import org.springframework.stereotype.Service;
 
-@Service
+@Controller
 public class Reader {
-
-    @Autowired
-    Parser p;
-
     public String Read(String viewName) {
         return "<h2>${x}</h2>";
     }
