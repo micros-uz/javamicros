@@ -1,0 +1,2 @@
+1) Show all Posts in the Blog Index page
+2) Show one Post in the Post page

@@ -1,0 +1,2 @@
+1) Show Post Comments in the Post Page
+2) Post Comment data to the server (without saving)
