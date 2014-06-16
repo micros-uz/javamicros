@@ -1,0 +1,11 @@
+1) Refactor DbManager - to support universal way to get objects (Map<String, Object>)
+2) Use this in the PostRepository, @Repository
+3) Use Repository in BlogService and display posts
+
+COMMIT 
+
+
+4) Added generic Mapper
+5) Added PostMapper
+
+COMMIT 8028cfa688f1aa8e0dfb7b6eb21dd6cc61aee466

@@ -1,0 +1,26 @@
+1) Describe the disadvantages of the current architecture
+2) Introduce Hiberbate (show site and doc)
+
+3) Add a SessionFactory dependency into the PostRepository - try to find Dependency with IDEA and add to POM automatically
+
+4) Add a persistent config to configure Hibernate
+
+5) Add annotations to entities to let them be a model to Hibernate (create the DB objects)
+
+6) Strange bug in IDEA - gone when add spring-orm (to POM )
+
+7) The result of all changes: everything starts without any post, DB is created and filled with DB object. If Db is filled in MySQL Workbench, we may see the real post data
+
+
+COMMIT
+
+8) The problem - several string settings are in the code - it is better to gather them in the one settings file.
+9) Add app.properties and move there string constants from PersistenseConfig
+10) Set up AppConfig and start the application
+
+COMMIT
+
+11) The problem - many repositories and many HSQL strings
+12) JPA - Java Persistence API
+13) refactor PostRepository to the interface that extends JpaRepository (Add Maven dependency)
+14) Set up JPA - PersistenseConfig
