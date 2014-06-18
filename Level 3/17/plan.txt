@@ -1,0 +1,16 @@
+1) The problem - many repositories and many HSQL strings
+2) JPA - Java Persistence API
+3) refactor PostRepository to the interface that extends JpaRepository (Add Maven dependency)
+4) Set up JPA - PersistenseConfig
+5) Start application and enjoy having several posts (created in the DB directly)
+
+COMMIT 012307e446a6d68efa9dd4b9c5327df1ee86b7d7
+
+6) Refactor Comment repository to the JPA
+7) Remove old code from PostService
+8) Try to start - see LazyInitialization exception (EAGER and LAZY)
+9) Set Post.comments to EAGER
+10) Ensure all comments are loaded (created in the DB directly)
+11) Refactor Post Controller - to avoid exception check if requested Post exists
+
+COMMIT efb224edd573504cfa6517e1246d09bed1b86ee4

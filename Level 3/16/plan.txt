@@ -20,7 +20,3 @@ COMMIT
 
 COMMIT
 
-11) The problem - many repositories and many HSQL strings
-12) JPA - Java Persistence API
-13) refactor PostRepository to the interface that extends JpaRepository (Add Maven dependency)
-14) Set up JPA - PersistenseConfig
