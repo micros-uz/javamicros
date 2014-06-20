@@ -1,0 +1,11 @@
+1) Look at the Comment Controller - there is no save code
+2) Add CommentService and call it
+3) Add HTML hidden field to store Post Id
+4) Add Redirect to the same Post with the new comment
+
+COMMIT
+
+5) Add Edit and Delete buttons to the Post View
+6) Add actions to the PostController (only delete)
+7) Add methods to Service
+8) Delete operation requires Cascade annotation for entity
