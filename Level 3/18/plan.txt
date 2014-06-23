@@ -9,3 +9,5 @@ COMMIT
 6) Add actions to the PostController (only delete)
 7) Add methods to Service
 8) Delete operation requires Cascade annotation for entity
+
+COMMIT 9f01fdcc007d68d1db5f1ff62a691a2a5185842a

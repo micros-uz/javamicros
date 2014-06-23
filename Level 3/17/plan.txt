@@ -14,3 +14,8 @@ COMMIT 012307e446a6d68efa9dd4b9c5327df1ee86b7d7
 11) Refactor Post Controller - to avoid exception check if requested Post exists
 
 COMMIT efb224edd573504cfa6517e1246d09bed1b86ee4
+
+12) Look at the generated DB objects - several issues - DB types, Nullable columns, no constraints
+13) Change Entity properties - add @Column annotation to the some fields
+
+COMMIT
