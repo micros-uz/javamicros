@@ -1,0 +1,8 @@
+1) Добавить новые сущности из раздела Store - Genre, Series, Book and Author
+2) Try create tables
+3) add import.sql - Hibernate автоматически подхватывает и импортирует его
+4) если есть ошибки - надо настроить лог - новые зависимости в POM файл + log4j.properties
+
+5) Для того, чтобы в MySQL сохранить русские буквы, нужно import.sql иметь в Windows 1251 кодировке
+
+COMMIT
