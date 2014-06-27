@@ -1,0 +1,13 @@
+1) Для обработки запросов показать книгу в жанре  - GenresController 
+2) BookService and BookRepository
+3) Add books.html + site.css
+4) View Genre books without images
+
+COMMIT 84ad7408399cdffb36c098c239b4dfd6be19c7fb
+
+5) Add BookController - for Book Details view
+6) Add new Books Service method
+7) Add details.html
+8) Add images for book
+
+COMMIT 53e5c96f8209dabcfcbab3fe13ec26bfecf2cb9a

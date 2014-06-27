@@ -6,3 +6,11 @@
 5) Для того, чтобы в MySQL сохранить русские буквы, нужно import.sql иметь в Windows 1251 кодировке
 
 COMMIT
+
+6) Change Home page to display genres catalog. Add catalog.html
+7) Change Index controller to return just home view. 
+8) Add BaseStore Controller to provide genres, Genres Service and repository
+
+COMMIT
+
+(На уроке BaseStore Controller внедрить не успели, сделали попроще)
